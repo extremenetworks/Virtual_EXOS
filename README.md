@@ -4,23 +4,23 @@ EXOS i386 images are provided to be used in virtual environments such as Virtual
 Please reference the Install Guides to create a virtual machine from the ISOs in this folder.  The .xos files are provided to allow you to upgrade an existing installation.  The SSH files are also included since these installations aren't intended to be used in production.
 
 # EXOS ISO Install Guides
-* [VMWare] (https://github.com/extremenetworks/Virtual_EXOS/blob/master/Install_Guide_EXOS-VM-ESXi-5.docx?raw=true)
-* [VirtualBox] (https://github.com/extremenetworks/Virtual_EXOS/blob/master/Install_Guide_EXOS-VM-VirtualBox.docx?raw=true)
+* [VMWare] (Install_Guide_EXOS-VM-ESXi-5.docx?raw=true)
+* [VirtualBox] (Install_Guide_EXOS-VM-VirtualBox.docx?raw=true)
 
 ## EXOS ISO Files
-* [15.7.2.9 ISO](exospc-15.7.2.9.iso)
-* [16.1.1.4 ISO](exospc-16.1.1.4.iso)
-* [16.1.2.14 ISO](exospc-16.1.2.4.iso)
+* [15.7.2.9 ISO](exospc-15.7.2.9.iso?raw=true)
+* [16.1.1.4 ISO](exospc-16.1.1.4.iso?raw=true)
+* [16.1.2.14 ISO](exospc-16.1.2.14.iso?raw=true)
 
 ## .xos Files
-* [15.7.2.9 xos](exospc-15.7.2.9.xos)
-* [16.1.1.4 xos](exospc-16.1.1.4.xos)
-* [16.1.2.14 xos](exospc-16.1.2.4.xos)
+* [15.7.2.9 xos](exospc-15.7.2.9.xos?raw=true)
+* [16.1.1.4 xos](exospc-16.1.1.4.xos?raw=true)
+* [16.1.2.14 xos](exospc-16.1.2.14.xos?raw=true)
 
 ## .xmod / SSH Files
-* [15.7.2.9 ssh](exospc-15.7.2.9-ssh.xmod)
-* [16.1.1.4 ssh](exospc-16.1.1.4-ssh.xmod)
-* [16.1.2.14 ssh](exospc-16.1.2.4-ssh.xmod)
+* [15.7.2.9 ssh](exospc-15.7.2.9-ssh.xmod?raw=true)
+* [16.1.1.4 ssh](exospc-16.1.1.4-ssh.xmod?raw=true)
+* [16.1.2.14 ssh](exospc-16.1.2.14-ssh.xmod?raw=true)
 
 # Support
 Virtual EXOS installations are not officially supported by GTAC and not all features and functions are implemented.  Please visit us on [The Hub](https://community.extremenetworks.com/extreme) if you have any questions or encounter issues.
