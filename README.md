@@ -4,8 +4,8 @@ EXOS i386 images are provided to be used in virtual environments such as Virtual
 Please reference the Install Guides to create a virtual machine from the ISOs in this folder.  The .xos files are provided to allow you to upgrade an existing installation.  The SSH files are also included since these installations aren't intended to be used in production.
 
 # EXOS ISO Install Guides
-* [VMWare] (Install_Guide_EXOS-VM-ESXi-5.docx)
-* [VirtualBox] (Install_Guide_EXOS-VM-VirtualBox.docx)
+* [VMWare] (https://github.com/extremenetworks/Virtual_EXOS/blob/master/Install_Guide_EXOS-VM-ESXi-5.docx?raw=true)
+* [VirtualBox] (https://github.com/extremenetworks/Virtual_EXOS/blob/master/Install_Guide_EXOS-VM-VirtualBox.docx?raw=true)
 
 ## EXOS ISO Files
 * [15.7.2.9 ISO](exospc-15.7.2.9.iso)
