@@ -9,24 +9,24 @@ Please reference the Install Guides to create a virtual machine from the ISOs in
 
 ## EXOS ISO Files
 * [15.7.2.9 ISO](exospc-15.7.2.9.iso?raw=true)
-* [16.1.1.4 ISO](exospc-16.1.1.4.iso?raw=true)
 * [16.1.2.14 ISO](exospc-16.1.2.14.iso?raw=true)
+* [16.1.3.6 ISO](exospc-16.1.3.6.iso?raw=true)
 
 ## .xos Files
 * [15.7.2.9 xos](exospc-15.7.2.9.xos?raw=true)
-* [16.1.1.4 xos](exospc-16.1.1.4.xos?raw=true)
 * [16.1.2.14 xos](exospc-16.1.2.14.xos?raw=true)
+* [16.1.3.6 xos](exospc-16.1.3.6.xos?raw=true)
 
 ## .xmod / SSH Files
 * [15.7.2.9 ssh](exospc-15.7.2.9-ssh.xmod?raw=true)
-* [16.1.1.4 ssh](exospc-16.1.1.4-ssh.xmod?raw=true)
 * [16.1.2.14 ssh](exospc-16.1.2.14-ssh.xmod?raw=true)
+* [16.1.3.6 ssh](exospc-16.1.3.6-ssh.xmod?raw=true)
 
 # Support
 Virtual EXOS installations are not officially supported by GTAC and not all features and functions are implemented.  Please visit us on [The Hub](https://community.extremenetworks.com/extreme) if you have any questions or encounter issues.
 
 ## License
-Copyright© 2015, Extreme Networks.  All rights reserved.
+Copyright© 2016, Extreme Networks.  All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
