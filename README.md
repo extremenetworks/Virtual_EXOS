@@ -7,6 +7,10 @@ Please reference the Install Guides to create a virtual machine from the ISOs in
 * [VMWare] (Install_Guide_EXOS-VM-ESXi-5.docx?raw=true)
 * [VirtualBox] (Install_Guide_EXOS-VM-VirtualBox.docx?raw=true)
 
+## EXOS User Guides
+* [ExtremeXOS User Guide 16.1](http://documentation.extremenetworks.com/exos/)
+* [ExtremeXOS Command Reference Guide 16.1](http://documentation.extremenetworks.com/exos_commands/)
+
 ## EXOS ISO Files
 * [15.7.2.9 ISO](exospc-15.7.2.9.iso?raw=true)
 * [16.1.2.14 ISO](exospc-16.1.2.14.iso?raw=true)
