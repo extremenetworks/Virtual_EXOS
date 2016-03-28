@@ -1,5 +1,5 @@
 # Virtual EXOS Images
-EXOS i386 images are provided to be used in virtual environments such as Virtualbox or VMware.
+Virtual EXOS images are provided to be used in virtualized environments such as Virtualbox or VMware.
 
 Please reference the Install Guides to create a virtual machine from the ISOs in this folder.  The .xos files are provided to allow you to upgrade an existing installation.  The SSH files are also included since these installations are intended for lab testing only.
 
