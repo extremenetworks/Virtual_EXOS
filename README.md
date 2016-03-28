@@ -1,30 +1,33 @@
 # Virtual EXOS Images
 EXOS i386 images are provided to be used in virtual environments such as Virtualbox or VMware.
 
-Please reference the Install Guides to create a virtual machine from the ISOs in this folder.  The .xos files are provided to allow you to upgrade an existing installation.  The SSH files are also included since these installations aren't intended to be used in production.
+Please reference the Install Guides to create a virtual machine from the ISOs in this folder.  The .xos files are provided to allow you to upgrade an existing installation.  The SSH files are also included since these installations are intended for lab testing only.
 
 # EXOS ISO Install Guides
-* [VMWare] (Install_Guide_EXOS-VM-ESXi-5.docx?raw=true)
-* [VirtualBox] (Install_Guide_EXOS-VM-VirtualBox.docx?raw=true)
+* [VMWare](Install_Guide_EXOS-VM-ESXi-5.docx?raw=true)
+* [VirtualBox](Install_Guide_EXOS-VM-VirtualBox.docx?raw=true)
 
 ## EXOS User Guides
-* [ExtremeXOS User Guide 16.1](http://documentation.extremenetworks.com/exos/)
-* [ExtremeXOS Command Reference Guide 16.1](http://documentation.extremenetworks.com/exos_commands/)
+* [ExtremeXOS User Guide 21.1](http://documentation.extremenetworks.com/exos/)
+* [ExtremeXOS Command Reference Guide 21.1](http://documentation.extremenetworks.com/exos_commands/)
+
+* [ExtremeXOS User Guide 16.1 PDF](http://documentation.extremenetworks.com/exos/16.1/EXOS_User_Guide_16_1.pdf)
+* [ExtremeXOS Command Reference Guide 16.1 PDF](http://documentation.extremenetworks.com/exos_commands/16.1/EXOS_Command_Reference_16_1.pdf)
 
 ## EXOS ISO Files
-* [15.7.2.9 ISO](exospc-15.7.2.9.iso?raw=true)
-* [16.1.2.14 ISO](exospc-16.1.2.14.iso?raw=true)
+* [21.1.1.4 ISO](vm-21.1.1.4.iso?raw=true)
 * [16.1.3.6 ISO](exospc-16.1.3.6.iso?raw=true)
+* [16.1.2.14 ISO](exospc-16.1.2.14.iso?raw=true)
 
 ## .xos Files
-* [15.7.2.9 xos](exospc-15.7.2.9.xos?raw=true)
-* [16.1.2.14 xos](exospc-16.1.2.14.xos?raw=true)
+* [21.1.1.4 xos](vm-21.1.1.4.xos?raw=true)
 * [16.1.3.6 xos](exospc-16.1.3.6.xos?raw=true)
+* [16.1.2.14 xos](exospc-16.1.2.14.xos?raw=true)
 
 ## .xmod / SSH Files
-* [15.7.2.9 ssh](exospc-15.7.2.9-ssh.xmod?raw=true)
-* [16.1.2.14 ssh](exospc-16.1.2.14-ssh.xmod?raw=true)
+* [Where is the SSH module for EXOS 21?](https://gtacknowledge.extremenetworks.com/articles/Q_A/Where-is-the-SSH-module-for-EXOS/)
 * [16.1.3.6 ssh](exospc-16.1.3.6-ssh.xmod?raw=true)
+* [16.1.2.14 ssh](exospc-16.1.2.14-ssh.xmod?raw=true)
 
 # Support
 Virtual EXOS installations are not officially supported by GTAC and not all features and functions are implemented.  Please visit us on [The Hub](https://community.extremenetworks.com/extreme) if you have any questions or encounter issues.
