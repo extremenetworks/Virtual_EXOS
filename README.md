@@ -6,6 +6,7 @@ Please reference the Install Guides to create a virtual machine from the ISOs in
 # EXOS ISO Install Guides
 * [VMWare](Install_Guide_EXOS-VM-ESXi-5.docx?raw=true)
 * [VirtualBox](Install_Guide_EXOS-VM-VirtualBox.docx?raw=true)
+* GNS3 guide needs to be written. Template and qcow2 files are available below.
 
 ## EXOS User Guides
 * [ExtremeXOS User Guide 21.1](http://documentation.extremenetworks.com/exos/)
@@ -23,6 +24,11 @@ Please reference the Install Guides to create a virtual machine from the ISOs in
 * [21.1.1.4 xos](vm-21.1.1.4.xos?raw=true)
 * [16.1.3.6 xos](exospc-16.1.3.6.xos?raw=true)
 * [16.1.2.14 xos](exospc-16.1.2.14.xos?raw=true)
+
+## .qcow2 files for GNS3
+* [GNS3 Template File for EXOS VM](exosvm.gns3a?raw=true)
+* [EXOS-VM_v21.1.1.4-disk1.qcow2](https://extremenetworks.box.com/shared/static/55r2qlm5dhd9ek0lab8pae9qhshq47bk.qcow2)
+* [EXOS-VM_16.1.1.4-disk1.qcow2](https://extremenetworks.box.com/shared/static/lso6ulzwb6tbfacz4t4du7zg245w4pvb.qcow2)
 
 ## .xmod / SSH Files
 * [Where is the SSH module for EXOS 21?](https://gtacknowledge.extremenetworks.com/articles/Q_A/Where-is-the-SSH-module-for-EXOS/)

@@ -1,0 +1,60 @@
+{
+    "name": "EXOS VM",
+    "category": "multilayer_switch",
+    "description": "The EXOS VM is a software emulation of a Summit switch.",
+    "vendor_name": "Extreme Networks",
+    "vendor_url": "http://www.extremenetworks.com",
+    "documentation_url": "http://www.extremenetworks.com/support/documentation",
+    "product_name": "EXOS VM",
+    "registry_version": 1,
+    "status": "stable",
+    "maintainer": "Daniel Flouret",
+    "maintainer_email": "dflouret@extremenetworks.com",
+    "usage": "At first boot, the switch will be installed from the cdrom. Login is admin with no password.",
+    "symbol": "ethernet_switch.svg",
+    "first_port_name": "Mgmt",
+    "port_name_format": "Port{port1}",
+    "qemu": {
+        "adapter_type": "rtl8139",
+        "adapters": 13,
+        "ram": 256,
+        "hda_disk_interface": "ide",
+        "arch": "i386",
+        "console_type": "telnet",
+        "boot_priority": "dc",
+        "kvm": "allow",
+        "options": "-cpu core2duo"
+    },
+    
+    "images": [
+        {
+            "filename": "EXOS-VM_v16.1.1.4-disk1.qcow2",
+            "version": "16.1.1.4",
+            "md5sum": "9d3d60afcd75e58fadf586a4ad68e37c",
+            "filesize": 116683264,
+            "direct_download_url": "https://extremenetworks.box.com/shared/static/lso6ulzwb6tbfacz4t4du7zg245w4pvb.qcow2"
+        },
+        {
+            "filename": "EXOS-VM_v21.1.1.4-disk1.qcow2",
+            "version": "21.1.1.4",
+            "md5sum": "654606809b6fd3bca400377483eb4a79",
+            "filesize": 117560832,
+            "direct_download_url": "https://extremenetworks.box.com/shared/static/55r2qlm5dhd9ek0lab8pae9qhshq47bk.qcow2"
+        }
+    ],
+    
+    "versions": [
+        {
+            "name": "16.1.1.4",
+            "images": {
+                "hda_disk_image": "EXOS-VM_v16.1.1.4-disk1.qcow2"
+            }
+        },
+        {
+            "name": "21.1.1.4",
+            "images": {
+                "hda_disk_image": "EXOS-VM_v21.1.1.4-disk1.qcow2"
+            }
+        }
+    ]
+}
