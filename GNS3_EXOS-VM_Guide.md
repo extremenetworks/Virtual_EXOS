@@ -1,7 +1,7 @@
 # Setting up GNS3 with EXOS-VM
 This Guide will assist you in setting up GNS3 to work with EXOS-VM.  If you have any questions about this guide please open a [Issue](https://github.com/extremenetworks/Virtual_EXOS/issues/new) on GitHub or on  [The HUB](http://community.extremenetworks.com/).  
 
-**Note: EXOS-VM's can get suck in (pending AAA) for 1-2 minutes.  Just be patient it will finish, and allow you to login**.
+**Note: EXOS-VM's can get stuck in (pending AAA) for 1-2 minutes.  Just be patient it will finish, and allow you to login**.
 
 ### What you will need:
 * Vmware player - latest version  --  ```This is needed for the GNS3-VM```
@@ -19,7 +19,7 @@ This Guide will assist you in setting up GNS3 to work with EXOS-VM.  If you have
  		*  https://www.gns3.com/software/download
 
 * GNS3 Template File for EXOS VM  -- ```This is used to import EXOS into GNS3```
-	* GNS3-VM.ova
+	* exosvm.gns3a
 		* https://github.com/extremenetworks/Virtual_EXOS/blob/master/exosvm.gns3a?raw=true
 
 ------
