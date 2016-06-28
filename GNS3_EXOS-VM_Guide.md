@@ -21,39 +21,41 @@ This Guide will assist you in setting up GNS3 to work with EXOS-VM.  If you have
 * GNS3 Template File for EXOS VM  -- ```This is used to import EXOS into GNS3```
 	* GNS3-VM.ova
 		* https://github.com/extremenetworks/Virtual_EXOS/blob/master/exosvm.gns3a?raw=true
- 
- 
-### Step 1: Download GNS3 Template File
+
+------
+### Getting Started:
+
+#### Step 1: Download GNS3 Template File
 * Download GNS3 Template File for EXOS VM.  --  ```You will need this in Step 8```
 	* https://github.com/extremenetworks/Virtual_EXOS/blob/master/exosvm.gns3a?raw=true
 
-### Step 2: Vmware player
+#### Step 2: Vmware player
 
 * Download and install Vmware player. 
 
-### Step 3: VMware VIX API
+#### Step 3: VMware VIX API
 
 * Download and install VMware VIX API
 
-### Step 4: GNS3-VM.ova
+#### Step 4: GNS3-VM.ova
 3.  Download GNS3-VM.ova from GitHub  -- ```This version must match the version of GMS3 program on your local machine```
 2.  Import the GNS3-VM.ova into Vmware player.  **Don't start it yet.**
 3.  Edit the VM to make sure you give it as much memory and CPU's as you can.  This will help improve your experience when using GNS3 and EXOS-VM.  I recommend giving the VM all CPU's and half of your RAM.
 
-### Step 5: GNS3 for your local machine
+#### Step 5: GNS3 for your local machine
 * Download and install GNS3 program for your local machine.  -- ```This version must match the version of GNS3-VM```
 
-### Step 6: Open GNS3
+#### Step 6: Open GNS3
 1.  Make sure Vmware player is open but **NOT** booted it up.
 2.  Open GNS3
 
-### Step 7: Setting up GNS3
+#### Step 7: Setting up GNS3
 1. A Setup Wizard should show up when you open GNS3.  Select "Local GNS3 VM" and click next.  
 2. Click on "VMware" -> Select your GNS3-VM -> and select the same CPU's and RAM you picked in Step 3. -> Click Next
 3. Your GNS3-VM should now start booting up now.  Wait for it to boot, and uncheck all boxes and click finish on the GNS3 wizard.
 4. Close the Preferences window -> Continue without saving -> Yes -> Name your Project, and click OK.
 
-### Step 8: Import EXOS-VM as Appliance 
+#### Step 8: Import EXOS-VM as Appliance 
 1. Go to File -> Import appliance -> Open the exosvm.gns3a file downloaded in Step 1.
 2. Click next -> Select "Run the appliance on the GNS3-VM" -> Click next.
 3. You should see two versions of EXOS.  Expand the version you want and click on the file. -> click download.
