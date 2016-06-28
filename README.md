@@ -7,7 +7,6 @@ Please reference the Install Guides to create a virtual machine from the ISOs in
 * [GNS3 with EXOS-VM install Guide](GNS3_EXOS-VM_Guide.md)
 * [VMWare](Install_Guide_EXOS-VM-ESXi-5.docx?raw=true)
 * [VirtualBox](Install_Guide_EXOS-VM-VirtualBox.docx?raw=true)
-* GNS3 guide needs to be written. Template and qcow2 files are available below.
 
 ## EXOS User Guides
 * [ExtremeXOS User Guide 21.1](http://documentation.extremenetworks.com/exos/)
