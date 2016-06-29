@@ -4,7 +4,7 @@ Virtual EXOS images are provided to be used in virtualized environments such as 
 Please reference the Install Guides to create a virtual machine from the ISOs in this folder.  The .xos files are provided to allow you to upgrade an existing installation.  The SSH files are also included since these installations are intended for lab testing only.
 
 # EXOS ISO Install Guides
-* [GNS3 with EXOS-VM install Guide](GNS3_EXOS-VM_Guide.md)
+* [GNS3 with EXOS-VM install Guide](GNS3_EXOS-VM_Guide.md) NEW!
 * [VMWare](Install_Guide_EXOS-VM-ESXi-5.docx?raw=true)
 * [VirtualBox](Install_Guide_EXOS-VM-VirtualBox.docx?raw=true)
 
