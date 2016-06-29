@@ -10,9 +10,9 @@ This Guide will assist you in setting up GNS3 to work with EXOS-VM.  If you have
 * VMware VIX API - latest version -- ```You need this so GNS3 can control Vmware player```
 	* 	* https://www.vmware.com/support/developer/vix-api/
 	
-* GNS3-VM.ova from GitHub  --  ```This version must match the version of GMS3 on your local machine```
+* GNS3-VM.ova from GitHub  --  ```This version must match the version of GNS3 on your local machine```
  	* GNS3-VM.ova
- 		*  https://github.com/GNS3/gns3-vm/releases
+ 		*  https://github.com/GNS3/gns3-gui/releases
 
 * GNS3 for your local machine.  -- ```This version must match the version of GNS3-VM``` 
  	*  GNS3-X.X.X-all-in-one.exe
@@ -38,7 +38,7 @@ This Guide will assist you in setting up GNS3 to work with EXOS-VM.  If you have
 * Download and install VMware VIX API
 
 #### Step 4: GNS3-VM.ova
-1.  Download GNS3-VM.ova from GitHub  -- ```This version must match the version of GMS3 program on your local machine```
+1.  Download GNS3-VM.ova from GitHub  -- ```This version must match the version of GNS3 program on your local machine```
 2.  Import the GNS3-VM.ova into Vmware player.  **Don't start it yet.**
 3.  Edit the VM to make sure you give it as much memory and CPU's as you can.  This will help improve your experience when using GNS3 and EXOS-VM.  I recommend giving the VM all CPU's and half of your RAM.
 
