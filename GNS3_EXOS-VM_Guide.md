@@ -68,3 +68,7 @@ This Guide will assist you in setting up GNS3 to work with EXOS-VM.  If you have
 
 ### Step 9: Have fun!
 1. Move more switches over connect them together, boot them up, and configure them.  Be careful for loops!
+
+### Screenshot
+
+<img src="GNS3_GNS3-VM_EXOS-VM.jpg">
