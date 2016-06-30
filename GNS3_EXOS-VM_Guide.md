@@ -31,7 +31,7 @@ This Guide will assist you in setting up GNS3 to work with EXOS-VM.  If you have
 
 #### Step 2: Vmware player
 
-* Download and install Vmware player. 
+* Download and install [Vmware player](https://www.vmware.com/products/player). 
 
 #### Step 3: VMware VIX API
 
