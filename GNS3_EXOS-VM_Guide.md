@@ -1,7 +1,7 @@
 # Setting up GNS3 with EXOS-VM
 This Guide will assist you in setting up GNS3 to work with EXOS-VM.  If you have any questions about this guide please open a [Issue](https://github.com/extremenetworks/Virtual_EXOS/issues/new) on GitHub or on  [The HUB](http://community.extremenetworks.com/).  
 
-**Note: EXOS-VM's can get stuck in (pending AAA) for 1-2 minutes.  Just be patient it will finish, and allow you to login**.
+**Note: EXOS-VMs can get stuck in (pending AAA) for 1-2 minutes.  Just be patient it will finish, and allow you to login**.
 
 ### What you will need:
 * Vmware player - latest version  --  ```This is needed for the GNS3-VM```
@@ -40,10 +40,10 @@ This Guide will assist you in setting up GNS3 to work with EXOS-VM.  If you have
 #### Step 4: GNS3-VM.ova
 1.  Download [GNS3.VM.VMware.Workstation.X.X.X.zip](https://github.com/GNS3/gns3-gui/releases) from GitHub  -- ```This version must match the version of GNS3 program on your local machine```
 2.  Import the GNS3-VM.ova into Vmware player.  **Don't start it yet.**
-3.  Edit the VM to make sure you give it as much memory and CPU's as you can.  This will help improve your experience when using GNS3 and EXOS-VM.  I recommend giving the VM all CPU's and half of your RAM.
+3.  Edit the VM to make sure you give it as much memory and CPUs as you can.  This will help improve your experience when using GNS3 and EXOS-VM.  I recommend giving the VM all CPUs and half of your RAM.
 4.  Reboot your PC to make sure VMware VIX and  Vmware player are installed fully.
 
-**Note: Some PC's require virtualization to be enabled in the bios.  Make sure you have this enabled or you will have issues on Step 7, but VMware will tell you.**
+**Note: Some PCs require virtualization to be enabled in the bios.  Make sure you have this enabled or you will have issues on Step 7, but VMware will tell you.**
 
 #### Step 5: GNS3 for your local machine
 * Download [GNS3-X.X.X-all-in-one.exe](https://www.gns3.com/software/download) and install GNS3 program for your local machine.  -- ```This version must match the version of GNS3-VM```
@@ -54,7 +54,7 @@ This Guide will assist you in setting up GNS3 to work with EXOS-VM.  If you have
 
 #### Step 7: Setting up GNS3
 1. A Setup Wizard should show up when you open GNS3.  Select "Local GNS3 VM" and click next.  
-2. Click on "VMware" -> Select your GNS3-VM -> and select the same CPU's and RAM you picked in Step 4.3. -> Click Next
+2. Click on "VMware" -> Select your GNS3-VM -> and select the same CPUs and RAM you picked in Step 4.3. -> Click Next
 3. Your GNS3-VM should now start booting up.  Wait for it to boot, and uncheck all boxes and click finish on the GNS3 wizard.
 4. Close the Preferences window -> Continue without saving -> Yes -> Name your Project, and click OK.
 
