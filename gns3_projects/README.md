@@ -2,8 +2,8 @@
 
 This is a location where EXOS VM GNS3 networks are shared.  If you have any GNS3 projects you want to share please let us know or add them.
 
->[Guide on Importing/Exporting individual GNS3 projects on GNS3-VM](import_export_gns3.md)
-
+* [GNS3 with EXOS-VM install Guide](https://github.com/extremenetworks/Virtual_EXOS/blob/master/GNS3_EXOS-VM_Guide.md)
+* [Guide on Importing/Exporting individual GNS3 projects on GNS3-VM](import_export_gns3.md)
 
 |Project Name| Technology | Description |
 |:-----------|:-------------:|:------|
