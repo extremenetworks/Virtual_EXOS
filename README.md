@@ -11,7 +11,7 @@ Please reference the Install Guides to create a virtual machine from the ISOs in
 
 # GNS3 Project files
 
-* [GNS3 Example Projects](gns3_projects/README.md)
+* [GNS3 Example Projects](gns3_projects/README.md) NEW!
 
 ## EXOS User Guides
 * [ExtremeXOS User Guide 21.1](http://documentation.extremenetworks.com/exos/)
