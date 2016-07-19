@@ -5,8 +5,13 @@ Please reference the Install Guides to create a virtual machine from the ISOs in
 
 # EXOS ISO Install Guides
 * [GNS3 with EXOS-VM install Guide](GNS3_EXOS-VM_Guide.md) NEW!
+* [GNS3 project import/export Guide](gns3_projects/README.md)
 * [VMWare](Install_Guide_EXOS-VM-ESXi-5.docx?raw=true)
 * [VirtualBox](Install_Guide_EXOS-VM-VirtualBox.docx?raw=true)
+
+# GNS3 Project files
+
+*[GNS3 Projects](gns3_projects/README.md)
 
 ## EXOS User Guides
 * [ExtremeXOS User Guide 21.1](http://documentation.extremenetworks.com/exos/)
