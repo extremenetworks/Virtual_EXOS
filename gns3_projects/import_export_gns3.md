@@ -41,3 +41,7 @@ Use an ftp program to connect to your VM.
 Now that your connected, go to "/opt/gns3/projects" and upload the project folder to this location.
 
 > Note the Project folder will look something like this "6d938f08-fd90-4e7f-ad47-5821080b46d2"
+
+##### Step 4:
+
+open the .gns3 project file in GNS3.
