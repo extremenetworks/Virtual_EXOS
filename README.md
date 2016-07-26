@@ -21,11 +21,13 @@ Please reference the Install Guides to create a virtual machine from the ISOs in
 * [ExtremeXOS Command Reference Guide 16.1 PDF](http://documentation.extremenetworks.com/exos_commands/16.1/EXOS_Command_Reference_16_1.pdf)
 
 ## EXOS ISO Files
+* [21.1.1.4 Patch 1-5 ISO](vm-21.1.1.4-patch1-5.iso?raw=true)
 * [21.1.1.4 ISO](vm-21.1.1.4.iso?raw=true)
 * [16.1.3.6 ISO](exospc-16.1.3.6.iso?raw=true)
 * [16.1.2.14 ISO](exospc-16.1.2.14.iso?raw=true)
 
 ## .xos Files
+* [21.1.1.4 Patch 1-5 xos](vm-21.1.1.4-patch1-5.xos?raw=true)
 * [21.1.1.4 xos](vm-21.1.1.4.xos?raw=true)
 * [16.1.3.6 xos](exospc-16.1.3.6.xos?raw=true)
 * [16.1.2.14 xos](exospc-16.1.2.14.xos?raw=true)
