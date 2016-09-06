@@ -28,8 +28,8 @@ Please reference the Install Guides to create a virtual machine from the ISOs in
 * [16.2.1.6 ISO](vm-16.2.1.6.iso?raw=true)
 
 ## .xos Files
-* [21.1.2.14 ISO](vm-21.1.2.14.xos?raw=true)
-* [16.2.1.6 ISO](vm-16.2.1.6.xos?raw=true)
+* [21.1.2.14 xos](vm-21.1.2.14.xos?raw=true)
+* [16.2.1.6 xos](vm-16.2.1.6.xos?raw=true)
 
 ## .qcow2 files for GNS3
 * [GNS3 Template File for EXOS VM](exosvm.gns3a?raw=true)
