@@ -38,8 +38,6 @@ Please reference the Install Guides to create a virtual machine from the ISOs in
 
 ## .xmod / SSH Files
 * [Where is the SSH module for EXOS 16.2 and 21.x?](https://gtacknowledge.extremenetworks.com/articles/Q_A/Where-is-the-SSH-module-for-EXOS/)
-* [16.1.3.6 ssh](exospc-16.1.3.6-ssh.xmod?raw=true)
-* [16.1.2.14 ssh](exospc-16.1.2.14-ssh.xmod?raw=true)
 
 # Support
 Virtual EXOS installations are not officially supported by GTAC and not all features and functions are implemented.  Please visit us on [The Hub](https://community.extremenetworks.com/extreme) if you have any questions or encounter issues.
