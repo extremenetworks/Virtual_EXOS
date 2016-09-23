@@ -1,47 +1,39 @@
-# Importing and Exporting individual GNS3 projects on GNS3-VM
+# Importing and Exporting individual GNS3 projects on GNS3-VM 1.5.2 and above.
 
-A EXOS GNS3 project consist of three things.  On your PC you have a screenshot.png file and a .gns3 file.  On your GNS3-VM there is a Project folder in the "/opt/gns3/projects" directory on the VM.
+GNS3 V1.5.2 has made it very easy to import and export GNS3 project.
 
-> Finding which project folder in the GNS3-VM is linked to a project is easy.  Open the .gns3 file in notepad, the 4th line of the file will tell you the project ID.  This project ID will be the same as the folder name in the "/opt/gns3/projects" directory.
-
-
-
-## Exporting individual projects
-When exporting your project you need to gather the files already on your PC and download your project folder on the GNS3-VM.  I recommend keeping your local PC files where they are, and just download your GNS3-VM project folder to the same folder as you’re .gns3 file.
+## Exporting individual projects:
 
 ##### Step 1:
-Locate your GNS3 project on your PC.  On a PC it's usually located here "\%userprofile%\gns3\projects".
+Open the project
 
 ##### Step 2:
-Open the .gns3 file in notepad, and locate the project ID.  This will be the same as your folder name in your GNS3-VM.  Remember this project ID for step 4
+Click file, and then Export
 
-##### Step 3:
-Use an ftp program to connect to your VM.
->Note: The IP of the VM should show up on the VM and the **username/password is gns3/gns3**
+![](import_export.jpg "Export")
 
-##### Step 4:
-Now that your connected, go to "/opt/gns3/projects" and download the folder that matches your project ID.
+> Note: You will be given the option to include the base image.  The base image is the .qcow2 EXOS images.  If you select yes, you will download one 117MB image for each switch in your project.  This will make you backup very large.  If you select "No" everything will be backuped except the images.  Your switch configurations AKA "QEMU snapshots", and network connections will be backed up.
 
-**I then like to ZIP the entire project for safe keeping.**
-
+![](image_YN.jpg "Base Image Yes/No")
 
 ## Importing individual projects:
 
-All projects should contain a project folder like this "6d938f08-fd90-4e7f-ad47-5821080b46d2" and at least a .gns3 file.
-
-
 ##### Step 1:
-Boot up GNS3 and your GNS3-VM.
+Open GNS3
 
 ##### Step 2:
-Use an ftp program to connect to your VM.
->Note: The IP of the VM should show up on the VM and the **username/Password is gns3/gns3**
+Click file, and then Import
+
+![](import_export.jpg "Import")
 
 ##### Step 3:
-Now that your connected, go to "/opt/gns3/projects" and upload the project folder to this location.
+Select your project and click open.
 
-> Note the Project folder will look something like this "6d938f08-fd90-4e7f-ad47-5821080b46d2"
+> Note: If the project uses a specific .qcow2 EXOS image you will need to have the Device/version added into GNS3 Devices section.  See [GNS3 with EXOS-VM install Guide](https://github.com/extremenetworks/Virtual_EXOS/blob/master/GNS3_EXOS-VM_Guide.md) for steps.
 
-##### Step 4:
+##### Step 3:
+Start your switches and Enjoy!
 
-open the .gns3 project file in GNS3.
+
+
+> Backup files are just .zip files and can be extracted to see contents. 
