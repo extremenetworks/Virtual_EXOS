@@ -12,7 +12,8 @@ Click file, and then Export
 
 ![](import_export.jpg "Export")
 
-> Note: You will be given the option to include the base image.  The base image is the .qcow2 EXOS images.  If you select yes, you will download one 117MB image for each switch in your project.  This will make you backup very large.  If you select "No" everything will be backuped except the images.  Your switch configurations AKA "QEMU snapshots", and network connections will be backed up.
+##### Step 3:
+You will be given the option to include the base image.  The base image is the .qcow2 EXOS images.  If you select yes, you will download one 117MB image for each switch in your project.  This will make you backup very large.  If you select "No" everything will be backuped except the images.  Your switch configurations AKA "QEMU snapshots", and network connections will be backed up.
 
 ![](image_YN.jpg "Base Image Yes/No")
 
