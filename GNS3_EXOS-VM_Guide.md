@@ -3,7 +3,7 @@ This Guide will assist you in setting up GNS3 to work with EXOS-VM.  If you have
 
 **Note: EXOS-VMs can get stuck in (pending AAA) for 1-2 minutes.  Just be patient it will finish, and allow you to login**.
 
-### What you will need:
+### What you will need: -- See "Getting Started" section below for step by step instructions.
 * Vmware player - latest version  --  ```This is needed for the GNS3-VM```
  	* https://www.vmware.com/products/player
  	
