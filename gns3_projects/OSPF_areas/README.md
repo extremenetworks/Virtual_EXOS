@@ -4,7 +4,7 @@ This GNS3 project was made to show a configuration example of how different OSPF
 
 Note: This project was built with the EXOS-VM_v21.1.1.4-disk1.qcow2 image.  Make sure you the image is loaded into GNS3.
 
-* [GNS3 Project file](https://github.com/extremenetworks/Virtual_EXOS/raw/GNS3_VM_templates/gns3_projects/OSPF_areas/OSPFV2.gns3project)
+* [GNS3 Project file](https://github.com/extremenetworks/Virtual_EXOS/blob/master/gns3_projects/OSPF_areas/ospfv2.gns3project?raw=true)
 
 * [Configuration Files](configurations)
 
