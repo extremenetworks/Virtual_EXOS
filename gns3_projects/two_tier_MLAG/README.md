@@ -1,7 +1,10 @@
 # Two tier MLAG example GNS3 project
 
 This GNS3 project was made to show a configuration example of how Two tier MLAG is configured.  Vlan Data is across all switches.
-* [Project ZIP file](https://github.com/extremenetworks/Virtual_EXOS/raw/GNS3_VM_templates/gns3_projects/two_tier_MLAG/MLAG.zip)
+
+Note: This project was built with the EXOS-VM_v21.1.1.4-disk1.qcow2 image.  Make sure you the image is loaded into GNS3.
+
+* [Project ZIP file](https://github.com/extremenetworks/Virtual_EXOS/raw/GNS3_VM_templates/gns3_projects/two_tier_MLAG/MLAG.gns3project)
 * [Configuration Files](configurations)
 
 <img src="screenshot.png">
