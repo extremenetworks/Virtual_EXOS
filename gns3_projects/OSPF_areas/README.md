@@ -1,6 +1,6 @@
 # OSPF Area example GNS3 project
 
-This GNS3 project was made to show a configuration example of how different OSPF area type are configured.  In the picture below you can see that each area shows a example of a different way to use a OSPF area.
+This GNS3 project was made to show a configuration example of how different OSPF area types are configured.  In the picture below you can see that each area shows a example of a different way to use a OSPF area.
 
 Note: This project was built with the EXOS-VM_v21.1.1.4-disk1.qcow2 image.  Make sure you the image is loaded into GNS3.
 
