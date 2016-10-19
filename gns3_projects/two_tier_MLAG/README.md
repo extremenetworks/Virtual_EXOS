@@ -9,4 +9,4 @@ Note: This project was built with the EXOS-VM_v21.1.1.4-disk1.qcow2 image.  Make
 
 <img src="screenshot.png">
 
->Note: The MLAG failover may take up to 2-3 minutes becasue of limitations with GNS3 and qemu devices.  LLDP was used to allow failover to happen.
+>Note: The MLAG failover may take up to 10 sec becasue of limitations with GNS3 and qemu devices.  LLDP was used to allow failover to happen.
