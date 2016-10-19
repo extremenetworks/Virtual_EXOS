@@ -19,6 +19,7 @@ create vlan "ISC"
 configure vlan ISC tag 123
 enable sharing 1 grouping 1-2 algorithm roundRobin-based lacp
 enable sharing 3 grouping 3-4 algorithm roundRobin-based lacp
+enable sharing 10 grouping 10 algorithm roundRobin-based lacp
 configure vlan Data add ports 1,3,10 tagged
 configure vlan ISC add ports 1 tagged
 configure vlan ISC ipaddress 1.1.1.2 255.255.255.252
@@ -51,8 +52,13 @@ configure vlan ISC ipaddress 1.1.1.2 255.255.255.252
 # Module acl configuration.
 #
 
+#
+# Module lacp configuration.
+#
 
-
+configure sharing 1 lacp timeout short
+configure sharing 3 lacp timeout short
+configure sharing 10 lacp timeout short
 
 #
 # Module bfd configuration.

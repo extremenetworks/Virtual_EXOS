@@ -15,7 +15,7 @@ configure vr VR-Default add ports 1-12
 configure vlan default delete ports 1-12
 create vlan "Data"
 configure vlan Data tag 10
-enable sharing 1 grouping 1-2 algorithm roundRobin-based
+enable sharing 1 grouping 1-2 algorithm roundRobin-based lacp
 configure vlan Data add ports 1 tagged
 configure vlan Data add ports 10 untagged
 
@@ -105,6 +105,11 @@ configure vlan Data add ports 10 untagged
 #
 # Module exsshd configuration.
 #
+
+#
+# Module lacp configuration.
+#
+configure sharing 1 lacp timeout short
 
 
 #
