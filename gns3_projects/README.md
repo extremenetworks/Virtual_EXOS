@@ -9,4 +9,5 @@ This is a location where EXOS VM GNS3 networks are shared.  If you have any GNS3
 |:-----------|:-------------:|:------|
 |[OSPF areas](OSPF_areas/README.md)| OSPF | Four different OSPF areas Stub, NSSA, Normal Area, Summarizing routes.|
 |[Two tier MLAG](two_tier_MLAG/README.md)| MLAG | Two tier MLAG with hosts attached.  Ports configured with LLDP|
-|[EAPS Rings](Two_EAPS_rings/README.md)| MLAG | Two EAPS Rings, EAPS Shared port, and CFM configured.|
+|[EAPS Rings](Two_EAPS_rings/README.md)| EAPS | Two EAPS Rings, EAPS Shared port, and CFM configured.|
+|[ERPS Rings](erps_subring/README.md)| ERPS | Two ERPS Rings (one major ring, one subring) and CFM configured.|
