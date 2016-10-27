@@ -1,4 +1,4 @@
-# OSPF Area example GNS3 project
+# OSPFv3 Area example GNS3 project
 
 This GNS3 project was made to show a configuration example of how different OSPFv3 area types are configured using IPv6.  In the picture below you can see that each area shows a example of a different way to use a OSPF area.
 
