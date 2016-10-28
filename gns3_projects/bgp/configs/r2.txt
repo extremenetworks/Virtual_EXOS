@@ -1,0 +1,322 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2016.10.28 15:55:37 =~=~=~=~=~=~=~=~=~=~=~=
+R2.6 # show config
+
+#
+# Module devmgr configuration.
+#
+configure snmp sysName "R2"
+configure snmp sysContact "support@extremenetworks.com, +1 888 257 3000"
+configure sys-recovery-level switch reset
+
+#
+# Module vlan configuration.
+#
+configure vlan default delete ports all
+configure vr VR-Default delete ports 1-12
+configure vr VR-Default add ports 1-12
+configure vlan default delete ports 1-12
+create vlan "loopback"
+enable loopback-mode vlan loopback
+create vlan "v12"
+create vlan "v200_0"
+create vlan "v23"
+create vlan "v24"
+configure vlan v12 add ports 1 untagged  
+configure vlan v200_0 add ports 5 untagged  
+configure vlan v23 add ports 9 untagged  
+configure vlan v24 add ports 4 untagged  
+configure vlan v12 ipaddress 1.1.1.2 255.255.255.252
+enable ipforwarding vlan v12
+configure vlan v23 ipaddress 1.1.1.17 255.255.255.252
+enable ipforwarding vlan v23
+configure vlan v24 ipaddress 1.1.1.9 255.255.255.252
+enable ipforwarding vlan v24
+configure vlan loopback ipaddress 1.1.2.2 255.255.255.255
+enable ipforwarding vlan loopback
+configure vlan v200_0 ipaddress 200.200.200.2 255.255.255.252
+enable ipforwarding vlan v200_0
+s
+#
+# Module mcmgr configuration.
+#
+
+#
+# Module otm configuration.
+#
+
+#
+# Module fdb configuration.
+#
+
+#
+# Module rtmgr configuration.
+#
+
+#
+# Module policy configuration.
+#
+
+#
+# Module aaa configuration.
+#
+
+#
+# Module acl configuration.
+#
+
+
+
+
+#
+# Module bfd configuration.
+#
+
+#
+# Module bgp configuration.
+#
+configure bgp AS-number 100
+configure bgp routerid 1.1.2.2
+configure bgp med 200
+create bgp neighbor 1.1.1.1 remote-AS-number 100
+enable bgp neighbor 1.1.1.1
+create bgp neighbor 1.1.1.10 remote-AS-number 100
+enable bgp neighbor 1.1.1.10
+create bgp neighbor 1.1.1.18 remote-AS-number 100
+enable bgp neighbor 1.1.1.18
+create bgp neighbor 200.200.200.1 remote-AS-number 2000
+enable bgp neighbor 200.200.200.1
+configure bgp neighbor 200.200.200.1 next-hop-self
+enable bgp neighbor 200.200.200.1 originate-default
+enable bgp
+
+#
+# Module cfgmgr configuration.
+#
+
+#
+# Module dosprotect configuration.
+#
+h
+#
+# Module dot1ag configuration.
+#
+
+#
+# Module eaps configuration.
+#
+
+#
+# Module edp configuration.
+#
+
+#
+# Module elrp configuration.
+#
+
+#
+# Module ems configuration.
+#
+
+#
+# Module epm configuration.
+#
+
+#
+# Module erps configuration.
+#
+
+#
+# Module esrp configuration.
+#
+
+#
+# Module etmon configuration.
+#
+
+#
+# Module exsshd configuration.
+#
+
+
+#
+# Module hal configuration.
+#
+configure ports 1 debounce time 0
+configure ports 2 debounce time 0
+configure ports 3 debounce time 0
+configure ports 4 debounce time 0
+configure ports 5 debounce time 0
+configure ports 6 debounce time 0
+configure ports 7 debounce time 0
+configure ports 8 debounce time 0
+configure ports 9 debounce time 0
+configure ports 10 debounce time 0
+configure ports 11 debounce time 0
+configure ports 12 debounce time 0
+
+#
+# Module idMgr configuration.
+#
+
+#
+# Module ipSecurity configuration.
+#
+
+#
+# Module isis configuration.
+#
+
+#
+# Module lldp configuration.
+#
+
+#
+# Module mrp configuration.
+#
+
+#
+# Module msdp configuration.
+#
+o
+#
+# Module netLogin configuration.
+#
+
+#
+# Module netTools configuration.
+#
+
+#
+# Module ntp configuration.
+#
+
+#
+# Module ospf configuration.
+#
+configure ospf routerid 1.1.2.2
+enable ospf
+configure ospf add vlan loopback area 0.0.0.0 passive
+configure ospf add vlan v12 area 0.0.0.0 link-type point-to-point 
+configure ospf add vlan v200_0 area 0.0.0.0 passive
+configure ospf add vlan v23 area 0.0.0.0 link-type point-to-point 
+configure ospf add vlan v24 area 0.0.0.0 link-type point-to-point 
+
+#
+# Module ospfv3 configuration.
+#
+
+#
+# Module pim configuration.
+#
+w
+#
+# Module poe configuration.
+#
+
+#
+# Module rip configuration.
+#
+
+#
+# Module ripng configuration.
+#
+
+#
+# Module snmpMaster configuration.
+#
+
+#
+# Module stp configuration.
+#
+
+#
+# Module techSupport configuration.
+#
+
+#
+# Module telnetd configuration.
+#
+
+#
+# Module tftpd configuration.
+#
+
+#
+# Module thttpd configuration.
+#
+
+#
+# Module twamp configuration.
+#
+
+#
+# Module vmt configuration.
+#
+
+#
+# Module vrrp configuration.
+#
+
+#
+# Module vsm configuration.
+#
+R2.7 # show policy detail
+
+Policies at Policy Server:
+
+R2.8 # show iproute
+
+Ori  Destination        Gateway         Mtr  Flags         VLAN       Duration
+#d   1.1.1.0/30         1.1.1.2         1    U------um--f- v12        0d:0h:9m:13s
+#oa  1.1.1.4/30         1.1.1.1         10   UG-D---um--f- v12        0d:0h:9m:2s
+#oa  1.1.1.4/30         1.1.1.18        10   UG-D---um---- v23        0d:0h:6m:33s
+#d   1.1.1.8/30         1.1.1.9         1    U------um--f- v24        0d:0h:9m:13s
+#oa  1.1.1.12/30        1.1.1.10        10   UG-D---um--f- v24        0d:0h:6m:33s
+#oa  1.1.1.12/30        1.1.1.18        10   UG-D---um---- v23        0d:0h:6m:33s
+#d   1.1.1.16/30        1.1.1.17        1    U------um--f- v23        0d:0h:9m:13s
+#oa  1.1.1.20/30        1.1.1.1         10   UG-D---um--f- v12        0d:0h:9m:2s
+#oa  1.1.1.20/30        1.1.1.10        10   UG-D---um---- v24        0d:0h:6m:33s
+#oa  1.1.2.1/32         1.1.1.1         15   UG-D---um--f- v12        0d:0h:9m:2s
+#d   1.1.2.2/32         1.1.2.2         1    U------um--f- loopback   0d:0h:9m:13s
+#oa  1.1.2.3/32         1.1.1.18        15   UG-D---um--f- v23        0d:0h:6m:33s
+#oa  1.1.2.4/32         1.1.1.10        15   UG-D---um--f- v24        0d:0h:6m:33s
+#bi  100.0.0.0/8        1.1.1.1         100  UG-D---um--f- v12        0d:0h:5m:29s
+#bi  100.10.1.0/24      1.1.1.1         100  UG-D---um--c- v12        0d:0h:5m:29s
+#bi  100.20.1.0/24      1.1.1.1         100  UG-D---um--c- v12        0d:0h:5m:29s
+#bi  100.30.1.0/24      1.1.1.1         100  UG-D---um--c- v12        0d:0h:5m:29s
+#bi  100.40.1.0/24      1.1.1.1         100  UG-D---um--c- v12        0d:0h:5m:29s
+#oa  100.100.100.0/30   1.1.1.1         10   UG-D---um--c- v12        0d:0h:9m:2s
+#oa  100.100.100.4/30   1.1.1.18        10   UG-D---um--f- v23        0d:0h:6m:33s
+#be  200.0.0.0/8        200.200.200.1   4    UG-D---um--f- v200_0     0d:0h:5m:34s
+#be  200.10.1.0/24      200.200.200.1   1    UG-D---um--c- v200_0     0d:0h:5m:34s
+#be  200.20.1.0/24      200.200.200.1   1    UG-D---um--c- v200_0     0d:0h:5m:34s
+#be  200.30.1.0/24      200.200.200.1   1    UG-D---um--c- v200_0     0d:0h:5m:34s
+#be  200.40.1.0/24      200.200.200.1   1    UG-D---um--c- v200_0     0d:0h:5m:34s
+#d   200.200.200.0/30   200.200.200.2   1    U------um--f- v200_0     0d:0h:9m:13s
+#oa  200.200.200.4/30   1.1.1.10        10   UG-D---um--f- v24        0d:0h:6m:33s
+
+       (mo) MOSPF (o) OSPF, (o1) OSPFExt1, (o2) OSPFExt2,
+       (oa) OSPFIntra, (oe) OSPFAsExt, (or) OSPFInter, (pd) PIM-DM, (ps) PIM-SM,
+       (r) RIP, (ra) RtAdvrt, (s) Static, (sv) SLB_VIP, (hm) Host-mobility, (un) UnKnown,
+       (*) Preferred unicast route (@) Preferred multicast route,
+       (#) Preferred unicast and multicast route.
+
+Flags: (b) BFD protection requested, (B) BlackHole, (c) Compressed, (D) Dynamic,
+       (f) Provided to FIB, (G) Gateway, (H) Host Route, (l) Calculated LDP LSP,
+       (L) Matching LDP LSP, (m) Multicast, (p) BFD protection active, (P) LPM-routing,
+       (R) Modified, (s) Static LSP, (S) Static, (t) Calculated RSVP-TE LSP,
+       (T) Matching RSVP-TE LSP, (u) Unicast, (U) Up, (3) L3VPN Route.
+
+MPLS Label: (S) Bottom of Label Stack 
+Mask distribution:
+     2 routes at length 8           8 routes at length 24
+    13 routes at length 30           4 routes at length 32
+
+
+Route Origin distribution:
+     5 routes from Direct              12 routes from OSPFIntra 
+     5 routes from EBGP                 5 routes from IBGP      
+
+
+Total number of routes = 27
+Total number of compressed routes = 9
