@@ -7,8 +7,10 @@ This is a location where EXOS VM GNS3 networks are shared.  If you have any GNS3
 
 |Project Name| Technology | Description |
 |:-----------|:-------------:|:------|
+|[BGP](bgp/README.md)| BGP | BGP configured with routes redistributed to and from OSPF.|
+|[EAPS Rings](Two_EAPS_rings/README.md)| EAPS | Two EAPS Rings, EAPS Shared port, and CFM configured.|
+|[ERPS Rings](erps_subring/README.md)| ERPS | Two ERPS Rings (one major ring, one subring) and CFM configured.|
 |[OSPFv2 areas](OSPF_areas/README.md)| OSPF | Four different OSPF areas with Stub, NSSA, Normal Area, Summarizing routes.|
 |[OSPFv3 areas IPv6](OSPFv3_areas/README.md)| OSPFv3 | Four different OSPF areas with Stub, NSSA, Normal Area, Summarizing routes with IPv6.|
 |[Two tier MLAG](two_tier_MLAG/README.md)| MLAG | Two tier MLAG with hosts attached.  Ports configured with LLDP fast timout|
-|[EAPS Rings](Two_EAPS_rings/README.md)| EAPS | Two EAPS Rings, EAPS Shared port, and CFM configured.|
-|[ERPS Rings](erps_subring/README.md)| ERPS | Two ERPS Rings (one major ring, one subring) and CFM configured.|
+
