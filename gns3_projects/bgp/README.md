@@ -4,7 +4,7 @@ This GNS3 project was made to show a configuration example of BGP.  There are th
 
 Note: This project was built with the EXOS-VM_v21.1.1.4-disk1.qcow2 image.  Make sure the image is loaded into GNS3.
 
-* [GNS3 Project file](https://github.com/extremenetworks/Virtual_EXOS/blob/master/gns3_projects/two_tier_MLAG/bgp.gns3project?raw=true)
+* [GNS3 Project file](https://github.com/extremenetworks/Virtual_EXOS/blob/master/gns3_projects/bgp/bgp.gns3project?raw=true)
 * [Configuration Files and Routing Tables](configurations)
 
 <img src="screenshot.png">
