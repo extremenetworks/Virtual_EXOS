@@ -24,17 +24,20 @@ Please reference the Install Guides to create a virtual machine from the ISOs in
 * [ExtremeXOS 16.2.1 Release Notes](http://documentation.extremenetworks.com/release_notes/ExtremeXOS/16.2/)
 
 ## EXOS ISO Files
+* [22.1.1.5 ISO](vm-22.1.1.5.iso?raw=true)
 * [21.1.2.14 ISO](vm-21.1.2.14.iso?raw=true)
 * [16.2.1.6 ISO](vm-16.2.1.6.iso?raw=true)
 
 ## .xos Files
+* [22.1.1.5 xos](vm-22.1.1.5.xos?raw=true)
 * [21.1.2.14 xos](vm-21.1.2.14.xos?raw=true)
 * [16.2.1.6 xos](vm-16.2.1.6.xos?raw=true)
 
 ## .qcow2 files for GNS3
 * [GNS3 Template File for EXOS VM](exosvm.gns3a?raw=true)
-* [EXOS-VM_v21.1.1.4-disk1.qcow2](https://extremenetworks.box.com/shared/static/55r2qlm5dhd9ek0lab8pae9qhshq47bk.qcow2)
-* [EXOS-VM_16.1.1.4-disk1.qcow2](https://extremenetworks.box.com/shared/static/lso6ulzwb6tbfacz4t4du7zg245w4pvb.qcow2)
+* [EXOS-VM_v22.1.1.5-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v22.1.1.5-disk1.qcow2)
+* [EXOS-VM_v21.1.1.4-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v21.1.1.4-disk1.qcow2)
+* [EXOS-VM_16.1.1.4-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v16.1.1.4-disk1.qcow2)
 
 ## .xmod / SSH Files
 * [Where is the SSH module for EXOS 16.2 and 21.x?](https://gtacknowledge.extremenetworks.com/articles/Q_A/Where-is-the-SSH-module-for-EXOS/)
