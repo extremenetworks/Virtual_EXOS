@@ -2,9 +2,10 @@
 
 This GNS3 project was made to show a configuration example of how ERPS is configured in EXOS with both a major ring and a subring (ITU-T G.8032v2).
 
-Note: This project was built with the EXOS-VM_v21.1.1.4-disk1.qcow2 image.  Make sure that the image is loaded into GNS3.
+Note: These projects where built for the EXOS-VM_v21.1.1.4-disk1.qcow2 and the EXOS-VM_v22.1.1.5-disk1.qcow2 images.  Make sure the image is loaded into GNS3 before you import the project.
 
-* [GNS3 Project file](https://github.com/extremenetworks/Virtual_EXOS/blob/master/gns3_projects/erps_subring/erps_subring.gns3project?raw=true)
+* [GNS3 21.1 Project file](https://github.com/extremenetworks/Virtual_EXOS/blob/master/gns3_projects/erps_subring/erps_subring.gns3project?raw=true)
+* [GNS3 22.1 Project file](https://github.com/extremenetworks/Virtual_EXOS/blob/master/gns3_projects/erps_subring/erps_subring_22.1.gns3project?raw=true)
 * [Configuration Files](configs)
 
 <img src="screenshot.png">
