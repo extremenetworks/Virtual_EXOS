@@ -19,7 +19,7 @@ Please reference the Install Guides to create a virtual machine from the ISOs in
 * [ExtremeXOS 22.2 Release Notes](http://documentation.extremenetworks.com/release_notes/ExtremeXOS/22.2/EXOS_Release_Notes/22.2/c_overview.shtml)
 
 
-## EXOS User Guides
+## OLD EXOS User Guides
 * [ExtremeXOS 21.1 User Guide](http://documentation.extremenetworks.com/exos/EXOS_21_1/Preface/c_introduction-ug.shtml)
 * [ExtremeXOS 21.1 Command Reference Guide](http://documentation.extremenetworks.com/exos_commands/EXOS_21_1/Preface/c_introduction.shtml)
 * [ExtremeXOS 21.1.2 Release Notes](http://documentation.extremenetworks.com/release_notes/ExtremeXOS/21.1.2/)
