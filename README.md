@@ -14,8 +14,14 @@ Please reference the Install Guides to create a virtual machine from the ISOs in
 * [GNS3 Example Projects](gns3_projects/README.md)
 
 ## EXOS User Guides
-* [ExtremeXOS 21.1 User Guide](http://documentation.extremenetworks.com/exos/)
-* [ExtremeXOS 21.1 Command Reference Guide](http://documentation.extremenetworks.com/exos_commands/)
+* [ExtremeXOS 22.2 User Guide](http://documentation.extremenetworks.com/exos/)
+* [ExtremeXOS 22.2 Command Reference Guide](http://documentation.extremenetworks.com/exos_commands/)
+* [ExtremeXOS 22.2 Release Notes](http://documentation.extremenetworks.com/release_notes/ExtremeXOS/22.2/EXOS_Release_Notes/22.2/c_overview.shtml)
+
+
+## EXOS User Guides
+* [ExtremeXOS 21.1 User Guide](http://documentation.extremenetworks.com/exos/EXOS_21_1/Preface/c_introduction-ug.shtml)
+* [ExtremeXOS 21.1 Command Reference Guide](http://documentation.extremenetworks.com/exos_commands/EXOS_21_1/Preface/c_introduction.shtml)
 * [ExtremeXOS 21.1.2 Release Notes](http://documentation.extremenetworks.com/release_notes/ExtremeXOS/21.1.2/)
 
 
@@ -24,17 +30,20 @@ Please reference the Install Guides to create a virtual machine from the ISOs in
 * [ExtremeXOS 16.2.1 Release Notes](http://documentation.extremenetworks.com/release_notes/ExtremeXOS/16.2/)
 
 ## EXOS ISO Files
+* [22.2.1.5 xos](vm-22.2.1.5.iso?raw=true)
 * [22.1.1.5 ISO](vm-22.1.1.5.iso?raw=true)
 * [21.1.2.14 ISO](vm-21.1.2.14.iso?raw=true)
 * [16.2.1.6 ISO](vm-16.2.1.6.iso?raw=true)
 
 ## .xos Files
+* [22.2.1.5 xos](vm-22.2.1.5.xos?raw=true)
 * [22.1.1.5 xos](vm-22.1.1.5.xos?raw=true)
 * [21.1.2.14 xos](vm-21.1.2.14.xos?raw=true)
 * [16.2.1.6 xos](vm-16.2.1.6.xos?raw=true)
 
 ## .qcow2 files for GNS3
 * [GNS3 Template File for EXOS VM](exosvm.gns3a?raw=true)
+* EXOS-VM_v22.2.1.5-disk1.qcow2 coming soon!
 * [EXOS-VM_v22.1.1.5-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v22.1.1.5-disk1.qcow2)
 * [EXOS-VM_v21.1.1.4-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v21.1.1.4-disk1.qcow2)
 * [EXOS-VM_16.1.1.4-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v16.1.1.4-disk1.qcow2)
