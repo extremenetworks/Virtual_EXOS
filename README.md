@@ -43,7 +43,7 @@ Please reference the Install Guides to create a virtual machine from the ISOs in
 
 ## .qcow2 files for GNS3
 * [GNS3 Template File for EXOS VM](exosvm.gns3a?raw=true)
-* EXOS-VM_v22.2.1.5-disk1.qcow2 coming soon!
+* [EXOS-VM_v22.2.1.5-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v22.2.1.5-disk1.qcow2)
 * [EXOS-VM_v22.1.1.5-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v22.1.1.5-disk1.qcow2)
 * [EXOS-VM_v21.1.1.4-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v21.1.1.4-disk1.qcow2)
 * [EXOS-VM_16.1.1.4-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v16.1.1.4-disk1.qcow2)
