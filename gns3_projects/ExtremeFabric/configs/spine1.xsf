@@ -1,0 +1,2 @@
+configure snmp sysName "Spine_1"
+create fabric vlans 2001-2064 routerid 10.255.2.1 as-number 3
