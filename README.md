@@ -3,6 +3,9 @@ Virtual EXOS images are provided to be used in virtualized environments such as 
 
 Please reference the Install Guides to create a virtual machine from the ISOs in this folder.  The .xos files are provided to allow you to upgrade an existing installation.
 
+### Feature and Functionality Note
+Virtual EXOS installations are not officially supported by GTAC and not all features and functions are implemented. For example, VXLAN VTEP and VPLS/VPWS PE functions are configurable but the associated data planes are not provided in Virtual EXOS.
+
 # EXOS ISO Install Guides
 * [GNS3 with EXOS-VM install Guide](GNS3_EXOS-VM_Guide.md)
 * [GNS3 project Import/Export Guide](gns3_projects/import_export_gns3.md)
