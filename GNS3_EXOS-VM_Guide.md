@@ -1,5 +1,7 @@
 # Setting up GNS3 with EXOS-VM
-This Guide will assist you in setting up GNS3 V2 and above to work with EXOS-VM.  If you have any questions about this guide please open a [Issue](https://github.com/extremenetworks/Virtual_EXOS/issues/new) on GitHub or on  [The HUB](http://community.extremenetworks.com/).  
+This Guide will assist you in setting up GNS3 V2 and above to work with EXOS-VM in Windows.  If you have any questions about this guide please open a [Issue](https://github.com/extremenetworks/Virtual_EXOS/issues/new) on GitHub or on  [The HUB](http://community.extremenetworks.com/).
+
+If you are setting this up in macOS, see the [macOS GNS3 EXOS VM Guide](GNS3_EXOS-VM_Guide_macOS.md)  
 
 **Note: EXOS-VMs can get stuck in (pending AAA) for 1-2 minutes.  Just be patient it will finish, and allow you to login**.
 

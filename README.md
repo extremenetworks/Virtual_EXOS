@@ -7,7 +7,8 @@ Please reference the Install Guides to create a virtual machine from the ISOs in
 Virtual EXOS installations are not officially supported by GTAC and not all features and functions are implemented. For example, VXLAN VTEP and VPLS/VPWS PE functions are configurable but the associated data planes are not provided in Virtual EXOS.
 
 # EXOS ISO Install Guides
-* [GNS3 with EXOS-VM install Guide](GNS3_EXOS-VM_Guide.md)
+* [GNS3 with EXOS-VM Install Guide (Windows)](GNS3_EXOS-VM_Guide.md)
+* [GNS3 with EXOS-VM Install Guide (macOS)](GNS3_EXOS-VM_Guide_macOS.md)
 * [GNS3 project Import/Export Guide](gns3_projects/import_export_gns3.md)
 * [VMWare](Install_Guide_EXOS-VM-ESXi-5.docx?raw=true)
 * [VirtualBox](Install_Guide_EXOS-VM-VirtualBox.docx?raw=true)
