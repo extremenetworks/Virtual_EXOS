@@ -9,5 +9,3 @@ Note: These projects were built for the EXOS-VM_v21.1.1.4-disk1.qcow2 and the EX
 * [Configuration Files](configurations)
 
 <img src="screenshot.png">
->Note: in this example /24 networks are used as P2P links.  You would normaly use /30 for P2P links.  I wanted to make the last Octet of the IP to reflect the Switch #.
-OSPFv3_areas
