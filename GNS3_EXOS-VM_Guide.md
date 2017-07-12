@@ -58,7 +58,7 @@ Note: This step is not required if using Vmware Workstation
 
 #### Step 7: Setting up GNS3
 1. A Setup Wizard should show up when you open GNS3.  Select "Run modern IOS" and click next.  
-2. Change the host binding to the same network as your GNS3-VM found on step 4.5.
+2. Change the host binding to 127.0.0.1.
 3. The connection should be successful.  Click Next
 4. Click on "VMware" -> Select your GNS3-VM -> and select the same CPUs and RAM you picked in Step 4.3. -> Click Next
 5. Click finish
