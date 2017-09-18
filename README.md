@@ -17,22 +17,22 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 
 * [GNS3 Example Projects](gns3_projects/README.md)
 
-## EXOS User Guides
+## EXOS 22.3 User Guides
 * [ExtremeXOS 22.3 User Guide](http://documentation.extremenetworks.com/exos_22.3/index.html)
 * [ExtremeXOS 22.3 Command Reference Guide](http://documentation.extremenetworks.com/exos_commands_22.3/index.html)
 * [ExtremeXOS 22.3 Release Notes](http://documentation.extremenetworks.com/release_notes/ExtremeXOS/22.3/EXOS_Release_Notes/22.3/c_overview.shtml)
 
-## EXOS User Guides
+## EXOS 22.2 User Guides
 * [ExtremeXOS 22.2 User Guide](http://documentation.extremenetworks.com/exos_22.2/index.html)
 * [ExtremeXOS 22.2 Command Reference Guide](http://documentation.extremenetworks.com/exos_commands_22.2/index.html)
 * [ExtremeXOS 22.2 Release Notes](http://documentation.extremenetworks.com/release_notes/ExtremeXOS/22.2/EXOS_Release_Notes/22.2/c_overview.shtml)
 
-
-## Older EXOS User Guides
+## EXOS 21.1 User Guides
 * [ExtremeXOS 21.1 User Guide](http://documentation.extremenetworks.com/exos/EXOS_21_1/Preface/c_introduction-ug.shtml)
 * [ExtremeXOS 21.1 Command Reference Guide](http://documentation.extremenetworks.com/exos_commands/EXOS_21_1/Preface/c_introduction.shtml)
 * [ExtremeXOS 21.1.2 Release Notes](http://documentation.extremenetworks.com/release_notes/ExtremeXOS/21.1.2/)
 
+## Older EXOS User Guides
 
 * [ExtremeXOS 16.2 User Guide](http://documentation.extremenetworks.com/exos_16/)
 * [ExtremeXOS 16.2 Command Reference Guide](http://documentation.extremenetworks.com/exos_commands_16/)
