@@ -28,11 +28,11 @@
     
     "images": [
         {
-            "filename": "EXOS-VM_v22.3.1.4patch1-3-disk1.qcow2",
+            "filename": "EXOS-VM_v22.3.1.4patch1-4-disk1.qcow2",
             "version": "22.3.1.4",
-            "md5sum": "6f7b6fa9c59201ddf122990c90c11633",
-            "filesize": 179503104,
-            "direct_download_url": "https://stackingtool.extremenetworks.com/github/EXOS-VM_v22.3.1.4patch1-3-disk1.qcow2"
+            "md5sum": "a4585b6e987ff730f5c044af339fe090",
+            "filesize": 218431488,
+            "direct_download_url": "https://stackingtool.extremenetworks.com/github/EXOS-VM_v22.3.1.4patch1-4-disk1.qcow2"
         },
 		{
             "filename": "EXOS-VM_v22.2.1.5-disk1.qcow2",
@@ -67,9 +67,9 @@
     
     "versions": [
         {
-            "name": "22.3.1.4 patch1-3",
+            "name": "22.3.1.4",
             "images": {
-                "hda_disk_image": "EXOS-VM_v22.3.1.4patch1-3-disk1.qcow2"
+                "hda_disk_image": "EXOS-VM_v22.3.1.4patch1-4-disk1.qcow2"
             }
         },
         {
