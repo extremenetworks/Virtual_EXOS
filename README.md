@@ -17,6 +17,11 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 
 * [GNS3 Example Projects](gns3_projects/README.md)
 
+## EXOS 22.4 User Guides
+* [ExtremeXOS 22.4 User Guide](http://documentation.extremenetworks.com/exos_22.4/index.html)
+* [ExtremeXOS 22.4 Command Reference Guide](http://documentation.extremenetworks.com/exos_commands_22.4/index.html)
+* [ExtremeXOS 22.4 Release Notes](http://documentation.extremenetworks.com/release_notes/ExtremeXOS/22.4/EXOS_Release_Notes/22.4/c_overview.shtml)
+
 ## EXOS 22.3 User Guides
 * [ExtremeXOS 22.3 User Guide](http://documentation.extremenetworks.com/exos_22.3/index.html)
 * [ExtremeXOS 22.3 Command Reference Guide](http://documentation.extremenetworks.com/exos_commands_22.3/index.html)
@@ -39,6 +44,7 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 * [ExtremeXOS 16.2.1 Release Notes](http://documentation.extremenetworks.com/release_notes/ExtremeXOS/16.2/)
 
 ## EXOS ISO Files
+* [22.4.1.4 ISO](vm-22.4.1.4.iso?raw=true)
 * [22.3.1.4-patch1-4 ISO](vm-22.3.1.4-patch1-4.iso?raw=true)
 * [22.2.1.5 ISO](vm-22.2.1.5.iso?raw=true)
 * [22.1.1.5 ISO](vm-22.1.1.5.iso?raw=true)
@@ -46,6 +52,7 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 * [16.2.1.6 ISO](vm-16.2.1.6.iso?raw=true)
 
 ## .xos Files
+* [22.4.1.4 xos](vm-22.4.1.4.xos?raw=true)
 * [22.3.1.4-patch1-4 xos](vm-22.3.1.4-patch1-4.xos?raw=true)
 * [22.2.1.5 xos](vm-22.2.1.5.xos?raw=true)
 * [22.1.1.5 xos](vm-22.1.1.5.xos?raw=true)
@@ -54,6 +61,7 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 
 ## .qcow2 files for GNS3
 * [GNS3 Template File for EXOS VM](exosvm.gns3a?raw=true)
+* [EXOS-VM_v22.4.1.4-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v22.4.1.4-disk1.qcow2)
 * [EXOS-VM_v22.3.1.4patch1-4-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v22.3.1.4patch1-4-disk1.qcow2)
 * [EXOS-VM_v22.2.1.5-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v22.2.1.5-disk1.qcow2)
 * [EXOS-VM_v22.1.1.5-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v22.1.1.5-disk1.qcow2)
