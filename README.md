@@ -24,7 +24,8 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 
 
 ## EXOS ISO Files
-* [22.5.1.7 ISO](vm-22.5.1.7?raw=true)
+* [22.6.1.4 ISO](vm-22.6.1.4.iso?raw=true)
+* [22.5.1.7 ISO](vm-22.5.1.7.iso?raw=true)
 * [22.4.1.4 ISO](vm-22.4.1.4.iso?raw=true)
 * [22.3.1.4-patch1-4 ISO](vm-22.3.1.4-patch1-4.iso?raw=true)
 * [22.2.1.5 ISO](vm-22.2.1.5.iso?raw=true)
@@ -33,6 +34,7 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 * [16.2.1.6 ISO](vm-16.2.1.6.iso?raw=true)
 
 ## .xos Files
+* [22.6.1.4 xos](vm-22.6.1.4.xos?raw=true)
 * [22.5.1.7 xos](vm-22.5.1.7.xos?raw=true)
 * [22.4.1.4 xos](vm-22.4.1.4.xos?raw=true)
 * [22.3.1.4-patch1-4 xos](vm-22.3.1.4-patch1-4.xos?raw=true)
@@ -43,13 +45,13 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 
 ## .qcow2 files for GNS3
 * [GNS3 Template File for EXOS VM](exosvm.gns3a?raw=true)
-* [EXOS-VM_v22.5.1.7.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v22.5.1.7.qcow2)
-* [EXOS-VM_v22.4.1.4-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v22.4.1.4-disk1.qcow2)
-* [EXOS-VM_v22.3.1.4patch1-4-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v22.3.1.4patch1-4-disk1.qcow2)
-* [EXOS-VM_v22.2.1.5-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v22.2.1.5-disk1.qcow2)
-* [EXOS-VM_v22.1.1.5-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v22.1.1.5-disk1.qcow2)
-* [EXOS-VM_v21.1.1.4-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v21.1.1.4-disk1.qcow2)
-* [EXOS-VM_16.1.1.4-disk1.qcow2](https://stackingtool.extremenetworks.com/github/EXOS-VM_v16.1.1.4-disk1.qcow2)
+* [EXOS-VM_v22.5.1.7.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v22.5.1.7.qcow2)
+* [EXOS-VM_v22.4.1.4-disk1.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v22.4.1.4-disk1.qcow2)
+* [EXOS-VM_v22.3.1.4patch1-4-disk1.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v22.3.1.4patch1-4-disk1.qcow2)
+* [EXOS-VM_v22.2.1.5-disk1.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v22.2.1.5-disk1.qcow2)
+* [EXOS-VM_v22.1.1.5-disk1.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v22.1.1.5-disk1.qcow2)
+* [EXOS-VM_v21.1.1.4-disk1.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v21.1.1.4-disk1.qcow2)
+* [EXOS-VM_16.1.1.4-disk1.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v16.1.1.4-disk1.qcow2)
 
 ## .xmod / SSH Files
 * [Where is the SSH module for EXOS 16.2 and 21.x?](https://gtacknowledge.extremenetworks.com/articles/Q_A/Where-is-the-SSH-module-for-EXOS/)
