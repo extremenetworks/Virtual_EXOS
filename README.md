@@ -45,6 +45,7 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 
 ## .qcow2 files for GNS3
 * [GNS3 Template File for EXOS VM](exosvm.gns3a?raw=true)
+* [EXOS-VM_v22.6.1.4.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v22.6.1.4.qcow2)
 * [EXOS-VM_v22.5.1.7.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v22.5.1.7.qcow2)
 * [EXOS-VM_v22.4.1.4-disk1.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v22.4.1.4-disk1.qcow2)
 * [EXOS-VM_v22.3.1.4patch1-4-disk1.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v22.3.1.4patch1-4-disk1.qcow2)
