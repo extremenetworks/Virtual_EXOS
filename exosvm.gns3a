@@ -19,7 +19,7 @@
         "adapters": 13,
         "ram": 512,
         "hda_disk_interface": "ide",
-        "arch": "i386",
+        "arch": "x86_64",
         "console_type": "telnet",
         "boot_priority": "dc",
         "kvm": "allow",
@@ -28,6 +28,13 @@
     
     "images": [
 
+		{
+            "filename": "EXOS-VM_v30.1.1.4.qcow2",
+            "version": "30.1.1.4",
+            "md5sum": "92d3f9b13d750f7bfa804823fa545772",
+            "filesize": 383385600,
+            "direct_download_url": "https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v30.1.1.4.qcow2"
+        },
 		{
             "filename": "EXOS-VM_v22.6.1.4.qcow2",
             "version": "22.6.1.4",
@@ -77,18 +84,17 @@
             "filesize": 117560832,
             "direct_download_url": "https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v21.1.1.4-disk1.qcow2"
         },
-		{
-            "filename": "EXOS-VM_v16.1.1.4-disk1.qcow2",
-            "version": "16.1.1.4",
-            "md5sum": "9d3d60afcd75e58fadf586a4ad68e37c",
-            "filesize": 116683264,
-            "direct_download_url": "https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v16.1.1.4-disk1.qcow2"
-        }
 
     ],
     
     "versions": [
         {
+            "name": "30.1.1.4",
+            "images": {
+                "hda_disk_image": "EXOS-VM_v30.1.1.4.qcow2"
+            }
+        },
+		{
             "name": "22.6.1.4",
             "images": {
                 "hda_disk_image": "EXOS-VM_v22.6.1.4.qcow2"
@@ -130,11 +136,5 @@
                 "hda_disk_image": "EXOS-VM_v21.1.1.4-disk1.qcow2"
             }
         },
-		{
-            "name": "16.1.1.4",
-            "images": {
-                "hda_disk_image": "EXOS-VM_v16.1.1.4-disk1.qcow2"
-            }
-        }
     ]
 }
