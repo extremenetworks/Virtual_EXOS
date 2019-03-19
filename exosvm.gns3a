@@ -83,7 +83,7 @@
             "md5sum": "654606809b6fd3bca400377483eb4a79",
             "filesize": 117560832,
             "direct_download_url": "https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v21.1.1.4-disk1.qcow2"
-        },
+        }
 
     ],
     
@@ -135,6 +135,6 @@
             "images": {
                 "hda_disk_image": "EXOS-VM_v21.1.1.4-disk1.qcow2"
             }
-        },
+        }
     ]
 }
