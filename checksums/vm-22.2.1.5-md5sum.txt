@@ -1,7 +1,3 @@
-ff23136cd4c9c2c454053352e2f264ad  vm-22.2.1.5-LegacyCLI.xmod
-bb8938b00fa29d785f6148b8cb08cf7f  vm-22.2.1.5-esvt.xmod
-8ea451d4a0cee29b02b0444a2d9addd3  vm-22.2.1.5-techSupport.xmod
 4aafaf10da024a67111156984ad733ad  vm-22.2.1.5.xos
-8929e0e9f4b92f9b0b665ff5c9d98fd5  vm-22.2.1.5-xmlSDK.tar.gz
 b24537ce42f933130d903a0d2c4f3ebe  22.2.1.5_MIB.txt
 bf51fd5b3c5e9dab10a616055265bcf2  vm-22.2.1.5.iso
