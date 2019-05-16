@@ -1,2 +1,3 @@
 fd64c85a3014c862e3395e88b9d7ec92  vm-30.2.1.8.xos
 66cf8f3cc347ead94f74f57404a89616  vm-30.2.1.8.iso
+4bdbf3ddff7a030e19c6bb71270b56d2  EXOS-VM_v30.2.1.8.qcow2
