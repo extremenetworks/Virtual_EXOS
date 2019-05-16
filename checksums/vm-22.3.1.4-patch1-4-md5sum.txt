@@ -1,2 +1,3 @@
 3eb4211cd70ad7c0af19d606f963c651  vm-22.3.1.4-patch1-4.xos
 adb19c3d27e9310452746e4c2df17b9e  vm-22.3.1.4-patch1-4.iso
+a4585b6e987ff730f5c044af339fe090  EXOS-VM_v22.3.1.4patch1-4-disk1.qcow2

@@ -1,2 +1,3 @@
 90bbe8c819b2de8f91a0c42f9b399fff  vm-22.4.1.4.xos
 2134a511084519a5f8ad00a6f7cd71a9  vm-22.4.1.4.iso
+5f1ee41912d74d423ce8ae57ea413602  EXOS-VM_v22.4.1.4-disk1.qcow2

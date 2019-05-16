@@ -1,2 +1,3 @@
 ead14c3aae1ad54b34decdaf27990441  vm-22.5.1.7.xos
 132ac87de368ab55d1f496f292338cd4  vm-22.5.1.7.iso
+d2e8ae6783b6ed777ad5cd8cafd83c86  EXOS-VM_v22.5.1.7.qcow2
