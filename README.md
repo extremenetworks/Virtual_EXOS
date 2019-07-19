@@ -18,14 +18,15 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 * [GNS3 Example Projects](gns3_projects/README.md)
 
 ## EXOS 30.1 Guides
-* [ExtremeXOS 30.1 User Guide](https://documentation.extremenetworks.com/exos_30.1)
-* [ExtremeXOS 30.1 Command Reference Guide](https://documentation.extremenetworks.com/exos_commands_30.1)
-* [ExtremeXOS 30.1 Release Notes](http://documentation.extremenetworks.com/release_notes/ExtremeXOS/30.1)
+* [ExtremeXOS 30.2 User Guide](https://documentation.extremenetworks.com/exos_30.2)
+* [ExtremeXOS 30.2 Command Reference Guide](https://documentation.extremenetworks.com/exos_commands_30.2)
+* [ExtremeXOS 30.2 Release Notes](http://documentation.extremenetworks.com/release_notes/ExtremeXOS/30.2)
 
 
 ## EXOS ISO Files
 * [30.2.1.8 ISO](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-30.2.1.8.iso)
 * [30.1.1.4 ISO](iso_files/vm-30.1.1.4.iso?raw=true)
+* [22.7.1.2 ISO](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-22.7.1.2.iso)
 * [22.6.1.4 ISO](iso_files/vm-22.6.1.4.iso?raw=true)
 * [22.5.1.7 ISO](iso_files/vm-22.5.1.7.iso?raw=true)
 * [22.4.1.4 ISO](iso_files/vm-22.4.1.4.iso?raw=true)
@@ -37,6 +38,7 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 ## .xos Files
 * [30.2.1.8 xos](xos_files/vm-30.2.1.8.xos?raw=true)
 * [30.1.1.4 xos](xos_files/vm-30.1.1.4.xos?raw=true)
+* [22.7.1.2 xos](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-22.7.1.2.xos)
 * [22.6.1.4 xos](xos_files/vm-22.6.1.4.xos?raw=true)
 * [22.5.1.7 xos](xos_files/vm-22.5.1.7.xos?raw=true)
 * [22.4.1.4 xos](xos_files/vm-22.4.1.4.xos?raw=true)
@@ -49,6 +51,7 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 * [GNS3 Template File for EXOS VM](exosvm.gns3a?raw=true)
 * [EXOS-VM_v30.2.1.8.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v30.2.1.8.qcow2)
 * [EXOS-VM_v30.1.1.4.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v30.1.1.4.qcow2)
+* [EXOS-VM_v22.7.1.2.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v22.7.1.2.qcow2)
 * [EXOS-VM_v22.6.1.4.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v22.6.1.4.qcow2)
 * [EXOS-VM_v22.5.1.7.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v22.5.1.7.qcow2)
 * [EXOS-VM_v22.4.1.4-disk1.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v22.4.1.4-disk1.qcow2)
