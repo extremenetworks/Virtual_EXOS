@@ -44,7 +44,7 @@ This Guide will assist you in setting up GNS3 V2 and above to work with EXOS-VM 
 2. Open GNS3
 
 #### Step 6: Setting up GNS3
-1. When initially opening GNS3, it will prompt you to authenticate with an admin account to allow uBridge root permssions (for interacting with network interfaces). Allow root access for uBridge and authenticate as an admin user.
+1. When initially opening GNS3, it will prompt you to authenticate with an admin account to allow uBridge root permissions (for interacting with network interfaces). Allow root access for uBridge and authenticate as an admin user.
 2. GNS3 will automatically detect and connect to the GNS3 VM.
 
 
