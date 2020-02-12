@@ -29,6 +29,13 @@
     "images": [
 
 		{
+            "filename": "EXOS-VM_v30.5.1.15.qcow2",
+            "version": "30.5.1.15",
+            "md5sum": "380d0c7bb8f0aa272ceb84b85f367a63",
+            "filesize": 498663424,
+            "direct_download_url": "https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v30.5.1.15.qcow2"
+        },
+		{
             "filename": "EXOS-VM_v30.4.1.2.qcow2",
             "version": "30.4.1.2",
             "md5sum": "133fa38bf80daec9e389729c96e692c0",
@@ -75,6 +82,12 @@
     
     "versions": [
 
+        {
+            "name": "30.5.1.15",
+            "images": {
+                "hda_disk_image": "EXOS-VM_v30.5.1.15.qcow2"
+            }
+        },
         {
             "name": "30.4.1.2",
             "images": {

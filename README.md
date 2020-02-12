@@ -18,10 +18,11 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 * [GNS3 Example Projects](gns3_projects/README.md)
 
 ## EXOS Guides
-* [ExtremeXOS 30.4 Documentation](https://www.extremenetworks.com/support/documentation/extremexos-30-4/)
+* [ExtremeXOS 30.5 Documentation](https://www.extremenetworks.com/support/documentation/extremexos-30-5/)
 
 
 ## EXOS ISO Files
+* [30.5.1.15 ISO](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-30.5.1.15.iso)
 * [30.4.1.2 ISO](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-30.4.1.2.iso)
 * [30.3.1.6 ISO](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-30.3.1.6.iso)
 * [30.2.1.8 ISO](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-30.2.1.8.iso)
@@ -36,6 +37,7 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 * [21.1.2.14 ISO](iso_files/vm-21.1.2.14.iso?raw=true)
 
 ## .xos Files
+* [30.5.1.15 ISO](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-30.5.1.15.iso)
 * [30.4.1.2 xos](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-30.4.1.2.xos)
 * [30.3.1.6 xos](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-30.3.1.6.xos)
 * [30.2.1.8 xos](xos_files/vm-30.2.1.8.xos?raw=true)
@@ -51,6 +53,7 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 
 ## .qcow2 files for GNS3
 * [GNS3 Template File for EXOS VM](exosvm.gns3a?raw=true)
+* [EXOS-VM_v30.5.1.15.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v30.5.1.15.qcow2)
 * [EXOS-VM_v30.4.1.2.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v30.4.1.2.qcow2)
 * [EXOS-VM_v30.3.1.6.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v30.3.1.6.qcow2)
 * [EXOS-VM_v30.2.1.8.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v30.2.1.8.qcow2)
