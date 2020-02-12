@@ -37,7 +37,7 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 * [21.1.2.14 ISO](iso_files/vm-21.1.2.14.iso?raw=true)
 
 ## .xos Files
-* [30.5.1.15 ISO](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-30.5.1.15.iso)
+* [30.5.1.15 xos](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-30.5.1.15.xos)
 * [30.4.1.2 xos](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-30.4.1.2.xos)
 * [30.3.1.6 xos](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-30.3.1.6.xos)
 * [30.2.1.8 xos](xos_files/vm-30.2.1.8.xos?raw=true)
