@@ -8,6 +8,7 @@ This is where EXOS VM GNS3 portable projects are shared.  If you have any GNS3 p
 |Project Name| Technology | Description |
 |:-----------|:-------------:|:------|
 |[BGP](bgp/README.md)| BGP | BGP configured with routes redistributed to and from OSPF.|
+|[Traffic Engineering](BGP_OUTBOUND_TE/README.md)| BGP | BGP Outbound Traffic Engineering.|
 |[EAPS Rings](Two_EAPS_rings/README.md)| EAPS | Two EAPS Rings, EAPS Shared port, and CFM configured.|
 |[ERPS Rings](erps_subring/README.md)| ERPS | Two ERPS Rings (one major ring, one subring) and CFM configured.|
 |[Extreme Fabric](ExtremeFabric/README.md)| ExtremeFabric | Small ExtremeFabric network configuration example.|
