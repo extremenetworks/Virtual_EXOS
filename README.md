@@ -10,7 +10,8 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 * [GNS3 with EXOS-VM Install Guide (Windows)](GNS3_EXOS-VM_Guide.md)
 * [GNS3 with EXOS-VM Install Guide (macOS)](GNS3_EXOS-VM_Guide_macOS.md)
 * [GNS3 project Import/Export Guide](gns3_projects/import_export_gns3.md)
-* [VMWare](Install_Guide_EXOS-VM-ESXi-5.docx?raw=true)
+* [ESXi-EXOS-VM-Requirements(2021)](ESXi-EXOS-VM-Requirements.md)
+* [VMWare-Guide-(2015)](Install_Guide_EXOS-VM-ESXi-5.docx?raw=true)
 * [VirtualBox](Install_Guide_EXOS-VM-VirtualBox.docx?raw=true)
 
 # GNS3 Project files
