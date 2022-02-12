@@ -8,7 +8,7 @@ When building a EXOS-VM in ESXI use the below ESXI VM settings to build the VM. 
 * Guest OS: Other Linux 64-bit
 * Virtural Sockets: 1
 * Cores per Socket: 2
-* Ram: 512GB
+* Ram: 512MB
 * Hard Drive space: 4GB
 * Hard Disk:
  	* SCSI - LSI Login Parallel
