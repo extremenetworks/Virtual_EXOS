@@ -19,10 +19,11 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 * [GNS3 Example Projects](gns3_projects/README.md)
 
 ## EXOS Guides
-* [ExtremeXOS 31.1 Documentation](https://www.extremenetworks.com/support/documentation/extremexos-31-1/)
+* [ExtremeXOS 31.7 Documentation](https://www.extremenetworks.com/support/documentation/extremexos-31-7/)
 
 
 ## EXOS ISO Files
+* [31.7.1.4 ISO](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-31.7.1.4.iso) - md5sum: 027f02198f319cdae351c20abfefbade
 * [31.1.1.3 ISO](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-31.1.1.3-patch1-1.x86_64.iso) - md5sum: 4d77dd96d89f1195767ddbfded1535e3
 * [30.7.1.1 ISO](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm_64-30.7.1.1.x86_64.iso) - md5sum: 489e36acaf5a80fd4c7b30a2e097d7e3
 * [30.6.1.11 ISO](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-30.6.1.11.iso)
@@ -41,6 +42,7 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 * [21.1.2.14 ISO](iso_files/vm-21.1.2.14.iso?raw=true)
 
 ## .xos Files
+* [30.7.1.4 xos](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-31.7.1.4.xos) - md5sum: 5cb22e92fbadb4feb1aeadb85f50d8be
 * [30.1.1.3 xos](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-31.1.1.3-patch1-1.x86_64.xos) - md5sum: 119d883ac319bef4c1b263d257e95a9f
 * [30.7.1.1 xos](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm_64-30.7.1.1.x86_64.xos) - md5sum: f4d33a1185232aed95549a194d92efe4
 * [30.6.1.11 xos](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-30.6.1.11.xos)
@@ -60,6 +62,7 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 
 ## .qcow2 files for GNS3
 * [GNS3 Template File for EXOS VM](exosvm.gns3a?raw=true)
+* [EXOS-VM_v31.7.1.4.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v31.7.1.4.qcow2) - md5sum: a70e4fa3bc361434237ad12937aaf0fb
 * [EXOS-VM_v31.1.1.3.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v31.1.1.3.qcow2) - md5sum: e4936ad94a5304bfeeca8dfc6f285cc0
 * [EXOS-VM_v30.7.1.1.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v30.7.1.1.qcow2) - md5sum: c6b67023945102f984b47aa67c67fe33
 * [EXOS-VM_v30.5.1.15.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v30.5.1.15.qcow2)
