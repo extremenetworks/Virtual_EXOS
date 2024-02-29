@@ -19,24 +19,21 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 * [GNS3 Example Projects](gns3_projects/README.md)
 
 ## EXOS Guides
-* [ExtremeXOS 32.1 Documentation](https://www.extremenetworks.com/support/documentation/extremexos-32-1/)
+* [ExtremeXOS 32.6.3 Documentation](https://supportdocs.extremenetworks.com/support/documentation/switch-engine-32-6-3/)
 
 
 ## EXOS ISO Files
-* [32.1.1.6 ISO](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-32.1.1.6.x86_64.iso) - md5sum: c570e233ee84bd8533d8a3be13d90775
+* [32.6.3 ISO](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v32.6.3.126.iso) - md5sum: f8768323741ce95d03c5784024e7e45f
 
 
 ## .xos Files
-* [32.1.1.6 xos](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/vm-32.1.1.6.x86_64.xos) - md5sum: 978c4e8e37f548e90ec1f60922799563
+* [32.6.3 xos](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v32.6.3.126.xos) - md5sum: 21764579d64176947e59c495da18368d
 
 
 ## .qcow2 files for GNS3
 * [GNS3 Template File for EXOS VM](exosvm.gns3a?raw=true)
-* [EXOS-VM_v32.1.1.6.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v32.1.1.6.qcow2) - md5sum: 48868bbcb4255d6365049b5941dd2af7
+* [EXOS-VM_v32.6.3.126.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v32.6.3.126.qcow2) - md5sum: 5856b6c427bd605fe1c7adb6ee6b2659
 
-
-## .xmod / SSH Files
-* [Where is the SSH module for EXOS 16.2 and 21.x?](https://gtacknowledge.extremenetworks.com/articles/Q_A/Where-is-the-SSH-module-for-EXOS/)
 
 # Support
 Virtual EXOS installations are not officially supported by GTAC and not all features and functions are implemented.  Please visit us on [The Hub](https://community.extremenetworks.com/extreme) if you have any questions or encounter issues.
