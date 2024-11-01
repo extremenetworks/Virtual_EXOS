@@ -23,11 +23,18 @@
         "console_type": "telnet",
         "boot_priority": "dc",
         "kvm": "allow",
-        "options": "-cpu core2duo"
+        "options": "-cpu host"
     },
     
     "images": [
 
+		{
+            "filename": "EXOS-VM_33.1.1.31.qcow2",
+            "version": "33.1.1.31",
+            "md5sum": "75a5422e040af92cefd238d3613a66bc",
+            "filesize": 239009792,
+            "direct_download_url": "https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_33.1.1.31.qcow2"
+        },
 		{
             "filename": "EXOS-VM_v32.6.3.126.qcow2",
             "version": "32.6.3.126",
@@ -40,6 +47,12 @@
     
     "versions": [
 
+        {
+            "name": "33.1.1.31",
+            "images": {
+                "hda_disk_image": "EXOS-VM_33.1.1.31.qcow2"
+			}
+        },
         {
             "name": "32.6.3.126",
             "images": {

@@ -19,19 +19,23 @@ Virtual EXOS installations are not officially supported by GTAC and not all feat
 * [GNS3 Example Projects](gns3_projects/README.md)
 
 ## EXOS Guides
+* [ExtremeXOS 33.1.1 Documentation](https://supportdocs.extremenetworks.com/support/documentation/switch-engine-33-1-1/)
 * [ExtremeXOS 32.6.3 Documentation](https://supportdocs.extremenetworks.com/support/documentation/switch-engine-32-6-3/)
 
 
 ## EXOS ISO Files
+* [33.1.1 ISO](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_33.1.1.31.iso) - md5sum: 9b1d0914407fcb952559b235db8cc0ec
 * [32.6.3 ISO](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v32.6.3.126.iso) - md5sum: f8768323741ce95d03c5784024e7e45f
 
 
 ## .xos Files
+* [33.1.1 xos](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_33.1.1.31.xos) - md5sum: c53d020ec0b878bd53da5d7b17b94f71
 * [32.6.3 xos](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v32.6.3.126.xos) - md5sum: 21764579d64176947e59c495da18368d
 
 
 ## .qcow2 files for GNS3
 * [GNS3 Template File for EXOS VM](exosvm.gns3a?raw=true)
+* [EXOS-VM_33.1.1.31.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_33.1.1.31.qcow2) - md5sum: 75a5422e040af92cefd238d3613a66bc
 * [EXOS-VM_v32.6.3.126.qcow2](https://akamai-ep.extremenetworks.com/Extreme_P/github-en/Virtual_EXOS/EXOS-VM_v32.6.3.126.qcow2) - md5sum: 5856b6c427bd605fe1c7adb6ee6b2659
 
 
