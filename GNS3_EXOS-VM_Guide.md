@@ -11,9 +11,9 @@ If you are setting this up in macOS, see the [macOS GNS3 EXOS VM Guide](GNS3_EXO
 * Download GNS3 Template File for EXOS VM.  --  You will need this in Step 8  
 	* https://github.com/extremenetworks/Virtual_EXOS/blob/master/exosvm.gns3a?raw=true  *"right-click save link as"*
 
-#### Step 2: VMware Player
+#### Step 2: VMware Workstation
 
-* Download and install [VMware Player](https://www.vmware.com/products/player). 
+* Download and install [VMware Workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion). 
 
 #### Step 4: GNS3-VM.ova
 1.  Download [GNS3.VM.VMware.Workstation.X.X.X.zip](https://github.com/GNS3/gns3-gui/releases) from GitHub  -- This version must match the version of GNS3 program on your local machine
