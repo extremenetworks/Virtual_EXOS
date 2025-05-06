@@ -4,7 +4,7 @@ This GNS3 project was made to show a configuration example of BGP.  There are th
 
 Note: These projects were built for the EXOS-VM_v32.7 images.  Make sure the image is loaded into GNS3 before you import the project.
 
-* [GNS3 21.1 Project file](https://github.com/extremenetworks/Virtual_EXOS/blob/master/gns3_projects/bgp/bgp.gns3project?raw=true)
+* [GNS3 32.7 Project file](https://github.com/stewilliams-extr/Virtual_EXOS/blob/master/gns3_projects/BGP/BGP_32.7.2.zip)
 
 * [Configuration Files and Routing Tables](configs)
 
