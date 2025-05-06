@@ -10,4 +10,4 @@ Note: This project were built for EXOS-VM_32.7.qcow2 image.  Make sure the image
 * [GNS3 32.7 Project file](https://github.com/stewilliams-extr/Virtual_EXOS/blob/master/gns3_projects/RSTP_LAB/RSTP_LAB_32.7.gns3project)
 * [Configuration Files](configurations)
 
-                             <img src="screenshot.png">
+  <img src="screenshot.png">
