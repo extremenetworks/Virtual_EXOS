@@ -7,7 +7,7 @@ This GNS3 project was made to show a configuration example of how RSTP is config
 
 Note: This project were built for EXOS-VM_32.7.qcow2 image.  Make sure the image is loaded into GNS3 before you import the project.
 
-* [GNS3 22.1 Project file](https://github.com/extremenetworks/Virtual_EXOS/blob/master/gns3_projects/RSTP_LAB/RSTP_LAB_22.1.gns3project?raw=true)
+* [GNS3 32.7 Project file](https://github.com/stewilliams-extr/Virtual_EXOS/blob/master/gns3_projects/RSTP_LAB/RSTP_LAB_32.7.gns3project)
 * [Configuration Files](configurations)
 
 <img src="screenshot.png">
