@@ -2,3 +2,5 @@
 
 '.iso' 
 '.xos' 
+*.gns3project
+*.gns3project
