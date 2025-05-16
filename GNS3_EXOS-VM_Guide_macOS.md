@@ -47,7 +47,6 @@ This Guide will assist you in setting up GNS3 V2 and above to work with EXOS-VM 
 1. When initially opening GNS3, it will prompt you to authenticate with an admin account to allow uBridge root permissions (for interacting with network interfaces). Allow root access for uBridge and authenticate as an admin user.
 2. GNS3 will automatically detect and connect to the GNS3 VM.
 
-
 #### Step 7: Import EXOS-VM as Appliance 
 1. Go to File -> Import appliance -> Open the exosvm.gns3a file downloaded in Step 1.
 2. Click next -> Select "Run the appliance on the GNS3-VM" -> Click next.
