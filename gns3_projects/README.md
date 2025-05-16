@@ -11,7 +11,7 @@ This is where EXOS VM GNS3 portable projects are shared.  If you have any GNS3 p
 |[Traffic Engineering](BGP_OUTBOUND_TE/README.md)| BGP | BGP Outbound Traffic Engineering.|
 |[EAPS Rings](Two_EAPS_rings/README.md)| EAPS | Two EAPS Rings, EAPS Shared port, and CFM configured.|
 |[ERPS Rings](erps_subring/README.md)| ERPS | Two ERPS Rings (one major ring, one subring) and CFM configured.|
-|[Extreme Fabric](ExtremeFabric/README.md)| ExtremeFabric | Small ExtremeFabric network configuration example.|
+|[Extreme Fabric](ExtremeFabric/README.md)| Extreme Fabric | Small ExtremeFabric network configuration example.|
 |[RSTP LAB](RSTP_LAB/README.md)| RSTP | RSTP configuration example with two vlans and auto-bind.|
 |[Switch Basics](Switch_Basics/README.md)| Basics | Switch Basics configuration example with VLANS, LAGs, and basic routing.|
 |[OSPFv2 areas](OSPF_areas/README.md)| OSPF | Four different OSPF areas with Stub, NSSA, Normal Area, Summarizing routes.|
