@@ -1,6 +1,6 @@
 
 configure snmp sysName "leaf_1"
-create fabric vlans 2001-2064 routerid 10.255.1.1 as-number 1
+create auto-peering bgp vlans 2001-2064 routerid 10.255.1.1 as-number 1
 
 configure vlan default delete ports 11-12
 create vlan "red"
