@@ -4,7 +4,7 @@ This is an example of a small ExtremeFabric network
 
 Note: These projects were built for the EXOS-VM_v32.7 images-disk1.qcow2 image.  Make sure the image is loaded into GNS3 before you import the project.
 
-* [GNS3 32.7 Project file](https://github.com/extremenetworks/Virtual_EXOS/blob/master/gns3_projects/ExtremeFabric/extreme_fabric.gns3project?raw=true)
+* [GNS3 32.7 Project file](https://github.com/stewilliams-extr/Virtual_EXOS/blob/master/gns3_projects/ExtremeFabric/extreme_fabric.gns3project)
 * [Configuration Files](configs)
 
 <img src="screenshot.png">
