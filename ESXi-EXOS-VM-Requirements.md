@@ -1,4 +1,4 @@
-##EXOS-VM Requirements for VMware ESXi
+# EXOS-VM Requirements for VMware ESXi
 
 To deploy an EXOS-VM on VMware ESXi, use the configuration settings outlined below. After creating the virtual machine, mount the EXOS-VM ISO via the CD-ROM drive and boot the VM to install the image. Once the installation is complete, unmount the ISO.
 
