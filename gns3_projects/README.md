@@ -13,6 +13,7 @@ This is where EXOS VM GNS3 portable projects are shared.  If you have any GNS3 p
 |[ERPS Rings](erps_subring/README.md)| ERPS | Two ERPS Rings (one major ring, one subring) and CFM configured.|
 |[Extreme Fabric](ExtremeFabric/README.md)| ExtremeFabric | Small ExtremeFabric network configuration example.|
 |[RSTP LAB](RSTP_LAB/README.md)| RSTP | RSTP configuration example with two vlans and auto-bind.|
+|[Switch Basics](Switch_Basics/README.md)| Switch Basics | Switch Basics configuration example with VLANS, LAGs, and basic routing.|
 |[OSPFv2 areas](OSPF_areas/README.md)| OSPF | Four different OSPF areas with Stub, NSSA, Normal Area, Summarizing routes.|
 |[OSPFv3 areas IPv6](OSPFv3_areas/README.md)| OSPFv3 | Four different OSPF areas with Stub, NSSA, Normal Area, Summarizing routes with IPv6.|
 |[Two tier MLAG](two_tier_MLAG/README.md)| MLAG | Two tier MLAG with hosts attached.  Ports configured with LLDP fast timout|
