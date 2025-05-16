@@ -13,7 +13,25 @@ If you are setting this up in macOS, see the [macOS GNS3 EXOS VM Guide](GNS3_EXO
 
 #### Step 2: VMware Workstation
 
-* Download and install [VMware Workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion). 
+* Download and install [VMware Workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion).
+
+#### Step 3: Set Up the GNS3 VM
+
+    Download the appropriate version of the GNS3 VM for VMware from the GNS3 GitHub Releases.
+    (Make sure it matches your GNS3 software version.)
+
+    Import the GNS3-VM.ova into VMware Workstation.
+    Do not start the VM yet.
+
+    Edit the VM settings and allocate:
+
+        All available CPUs
+
+        Half of your total system RAM
+
+    Boot up the GNS3 VM and note the IP address it receives. Keep it running.
+
+    ⚠️ Important: Some PCs require virtualization to be enabled in BIOS. If it’s not enabled, VMware will alert you when you try to run the VM.
 
 #### Step 4: GNS3-VM.ova
 1.  Download [GNS3.VM.VMware.Workstation.X.X.X.zip](https://github.com/GNS3/gns3-gui/releases) from GitHub  -- This version must match the version of GNS3 program on your local machine
