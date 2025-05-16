@@ -1,4 +1,3 @@
-
 configure snmp sysName "leaf_1"
 create auto-peering bgp vlans 2001-2064 routerid 10.255.1.1 as-number 1
 
