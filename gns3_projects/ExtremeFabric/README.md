@@ -9,7 +9,7 @@ Note: These projects were built for the EXOS-VM_v32.7 images-disk1.qcow2 image. 
 
 <img src="screenshot.png">
 
-Note that as of EXOS 22.2, ExtremeFabric is beta and should not be used in production networks. Further information on ExtremeFabric can be found in the [ExtremeFabric Release Notes](http://documentation.extremenetworks.com/release_notes/ExtremeXOS/ExtremeFabric/ExtremeFabric_EXOS_22.2_RelNotes.pdf)
+Note that as of EXOS 30.X+, ExtremeFabric is beta and should not be used in production networks. Further information on ExtremeFabric can be found in the [ExtremeFabric Release Notes](https://documentation.extremenetworks.com/exos_30.1/downloads/GUID-C002AB85-A1D6-482B-A171-02FDA1354649.pdf) Page 328
 
 
 This project file was built with a beta version of GNS3 (2.0.0rc2).
