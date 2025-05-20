@@ -6,7 +6,7 @@ Note: These projects were built for the EXOS-VM_v32.7 images. Make verify the im
 
 * [GNS3 32.7 Project file](https://github.com/stewilliams-extr/Virtual_EXOS/raw/refs/heads/master/gns3_projects/BGP_OUTBOUND_TE/bgp.gns3project)
 
-* [Configuration Files and Routing Tables](Configurations)
+* [Configuration Files](Configurations)
 
 <img src="bgp_outbound_te.png">
 
