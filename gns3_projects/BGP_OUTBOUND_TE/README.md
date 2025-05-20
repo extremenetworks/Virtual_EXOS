@@ -8,7 +8,7 @@ This GNS3 project aims to demonstrate on how you could perform outbound Traffic 
 
 * [Configuration Files](Configurations)
 
-* [Twisting Traffic with BGP document](https://github.com/stewilliams-extr/Virtual_EXOS/raw/refs/heads/master/gns3_projects/BGP_OUTBOUND_TE/bgp.gns3project) 
+* [Twisting Traffic With BGP Reference](https://github.com/stewilliams-extr/Virtual_EXOS/raw/refs/heads/master/gns3_projects/BGP_OUTBOUND_TE/bgp.gns3project) 
 
 <img src="bgp_outbound_te.png">
 
