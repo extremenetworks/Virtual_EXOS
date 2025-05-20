@@ -6,7 +6,7 @@ Note: These projects were built for the EXOS-VM_v32.7 images. Make verify the im
 
 * [GNS3 32.7 Project file](https://github.com/stewilliams-extr/Virtual_EXOS/raw/refs/heads/master/gns3_projects/BGP/BGP_32.7.2.gns3project)
 
-* [Configuration Files and Routing Tables](configs)
+* [Configuration Files and Routing Tables](Configurations)
   
 <img src="screenshot.png">
 
