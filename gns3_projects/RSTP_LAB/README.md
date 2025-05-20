@@ -2,7 +2,7 @@
 
 This GNS3 project was made to show a configuration example of how RSTP is configured.  In this lab there are two VLANs.  One is the Default VLAN and the other is VOIP.  the VOIP VLAN is using auto-bind.
 
-* [How To: Troubleshoot BGP Issues on Switch Engine (EXOS)](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000078327)
+* [How To: Configure RSTP in Switch Engine (EXOS)]( https://extreme-networks.my.site.com/ExtrArticleDetail?an=000079504) 
 
 Note: This project were built for EXOS-VM_32.7.qcow2 image.  Make sure the image is loaded into GNS3 before you import the project.
 
