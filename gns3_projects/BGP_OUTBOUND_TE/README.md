@@ -6,4 +6,4 @@ Note: These projects were built for the EXOS-VM_v32.6.3.126-disk1.qcow2.  Make s
 
 <img src="bgp_outbound_te.png">
 
-* [How to prevent advertising routes received from a specific AS in BGP using route policy?)](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000111495)
+* [How to prevent advertising routes received from a specific AS in BGP using route policy?)](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000111495
