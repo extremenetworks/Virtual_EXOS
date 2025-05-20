@@ -1,4 +1,4 @@
-### GNS3 projects for Switch Engine (EXOS) VM
+# GNS3 projects for Switch Engine (EXOS) VM
 
 This is where EXOS VM GNS3 portable projects are shared.  If you have any GNS3 projects you want to share please let us know or add them.
 
