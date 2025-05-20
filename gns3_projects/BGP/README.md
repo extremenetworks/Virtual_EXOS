@@ -1,6 +1,6 @@
-# BGP with route redistribution to and from OSPF
+# BGP & route redistribution to and from OSPF
 
-This GNS3 project was made to show a configuration example of BGP.  There are three separate BGP ASes, and two OSPF ASes.
+This GNS3 project was made to show a configuration example of BGP with route redistribution.  There are three separate BGP ASes, and two OSPF ASes.
 
 Note: These projects were built for the EXOS-VM_v32.7 images.  Make sure the image is loaded into GNS3 before you import the project.
 
