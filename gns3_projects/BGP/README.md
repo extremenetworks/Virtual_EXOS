@@ -1,4 +1,4 @@
-# BGP & Route redistribution to and from OSPF
+# BGP & Route Redistribution To And From OSPF
 
 This GNS3 project was made to show a configuration example of BGP with route redistribution.  There are three separate BGP ASes, and two OSPF ASes.
 
