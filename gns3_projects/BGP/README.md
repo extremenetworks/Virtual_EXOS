@@ -7,8 +7,8 @@ Note: These projects were built for the EXOS-VM_v32.7 images.  Make sure the ima
 * [GNS3 32.7 Project file](https://github.com/stewilliams-extr/Virtual_EXOS/blob/master/gns3_projects/BGP/BGP_32.7.2.zip)
 
 * [Configuration Files and Routing Tables](configs)
-
-* [How To: Troubleshoot BGP Issues on Switch Engine (EXOS)](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000078327)![image](https://github.com/user-attachments/assets/23952892-0dc7-4d11-b9dc-a1efee7823a6)
+* 
+* [How To: Troubleshoot BGP Issues on Switch Engine (EXOS)](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000078327)
 
 
 <img src="screenshot.png">
