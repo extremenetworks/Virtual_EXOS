@@ -2,7 +2,11 @@
 
 This GNS3 project aims to demonstrate on how you could perform outbound Traffic engineering with BGP.
 
-Note: These projects were built for the EXOS-VM_v32.6.3.126-disk1.qcow2. Make sure the image is loaded into GNS3 before you import the project.
+Note: These projects were built for the EXOS-VM_v32.7 images. Make verify the image is loaded into GNS3 before you import the project.
+
+* [GNS3 32.7 Project file](https://github.com/stewilliams-extr/Virtual_EXOS/raw/refs/heads/master/gns3_projects/BGP_OUTBOUND_TE/bgp.gns3project)
+
+* [Configuration Files and Routing Tables](Configurations)
 
 <img src="bgp_outbound_te.png">
 
