@@ -10,3 +10,5 @@ Note: These projects were built for the EXOS-VM_v32.7 images-disk1.qcow2 image. 
 <img src="screenshot.png">
 
 Further information on ExtremeFabric can be found in the [ExtremeFabric Release Notes](https://documentation.extremenetworks.com/exos_30.1/downloads/GUID-C002AB85-A1D6-482B-A171-02FDA1354649.pdf) Page 328
+
+* [How To: Configure BGP on Switch Engine (EXOS)](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000122408)
