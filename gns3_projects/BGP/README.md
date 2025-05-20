@@ -8,9 +8,8 @@ Note: These projects were built for the EXOS-VM_v32.7 images.  Make sure the ima
 
 * [Configuration Files and Routing Tables](configs)
   
-* [How To: Troubleshoot BGP Issues on Switch Engine (EXOS)](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000078327)
-
-
 <img src="screenshot.png">
 
+* [How To: Troubleshoot BGP Issues on Switch Engine (EXOS)](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000078327)
+* 
 >Note: ECMP is not supported in EXOS-VM. This is because ECMP requires hardware support, and the required hardware is not emulated in the VM.
