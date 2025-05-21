@@ -1,6 +1,6 @@
 # ExtremeFabric GNS3 project
 
-This is an example of a small ExtremeFabric network
+This is an example of a small ExtremeFabric network via BGP Auto-peering Leaf/Spine with VXLAN
 
 *Note: These projects were built for the EXOS-VM_v32.7.2.19.qcow2 image. Make verify the image is loaded into GNS3 before you import the project.*
 
