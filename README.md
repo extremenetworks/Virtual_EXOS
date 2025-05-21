@@ -1,6 +1,5 @@
-# Virtual Switch Engine (EXOS) Images
 <img src="Switch_Engine(EXOS)-VM.png">
-
+# Virtual Switch Engine (EXOS) Images
 Virtual Switch Engine (EXOS) images are provided to be used in virtualized environments such as VirtualBox or VMware.
 
 Please reference the Install Guides to create a virtual machine from the ISOs in this folder.  The .xos files are provided to allow you to upgrade an existing installation.
