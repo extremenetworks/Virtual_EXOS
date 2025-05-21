@@ -12,4 +12,4 @@ This GNS3 project was made to show a configuration example of how different OSPF
 
 
 ## Relevant Article
-* [How To: Configure RSTP in Switch Engine (EXOS)](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000078327)
+* [Extreme OSPFv3 User Guide](https://documentation.extremenetworks.com/switchengine_32.7.1/downloads/SwitchEngine_User_Guide_32.7.1.pdf) page 1651
