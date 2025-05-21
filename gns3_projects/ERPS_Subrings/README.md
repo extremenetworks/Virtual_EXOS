@@ -1,4 +1,4 @@
-# ERPS With Major And Subring Rings 
+# ERPS With Major And Subring Rings Example Project
 
 This GNS3 project was made to show a configuration example of how ERPS is configured in EXOS with both a major ring and a subring (ITU-T G.8032v2).
 
