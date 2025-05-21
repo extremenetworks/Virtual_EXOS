@@ -8,7 +8,7 @@ This GNS3 project was made to show a configuration example of how Two EAPS rings
 
 * [Configuration Files and Routing Tables](Configurations)
 
-* 
+  
 
 <img src="screenshot.png">
 
