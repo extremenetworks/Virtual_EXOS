@@ -1,4 +1,4 @@
-# ExtremeFabric project
+# ExtremeFabric Example Project
 
 This is an example of a small ExtremeFabric network via BGP Auto-peering Leaf/Spine with VXLAN
 
