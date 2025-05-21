@@ -14,4 +14,4 @@ This GNS3 project was made to show a configuration example of how Two EAPS rings
 
 ## Relevant Articles
 * [How To: Configure an EAPS Ring](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000080836)
-* [Adding additional vlans to existing EAPS rings?](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000090838)
+* [How To: Add additional vlans to existing EAPS rings](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000090838)
