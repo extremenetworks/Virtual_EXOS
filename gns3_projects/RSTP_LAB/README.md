@@ -12,5 +12,5 @@ This GNS3 project was made to show a configuration example of how RSTP is config
 
   
 ## Relevant Article
-* [How To: Configure RSTP in Switch Engine (EXOS)]( https://extreme-networks.my.site.com/ExtrArticleDetail?an=000079504) 
+* [How To: Configure RSTP in Switch Engine (EXOS)](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000078327) 
 
