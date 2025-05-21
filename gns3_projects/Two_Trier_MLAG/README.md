@@ -1,4 +1,4 @@
-# Two tier MLAG example GNS3 project
+# Two Tier MLAG Example GNS3 Project
 
 This GNS3 project was made to show a configuration example of how Two tier MLAG is configured.  Vlan Data is across all switches.
 
