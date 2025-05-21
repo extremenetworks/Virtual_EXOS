@@ -15,4 +15,4 @@ This GNS3 project was made to show a some basic configurations of VLANS, LAGs, a
 
 * [How To: Configure VLANs on Switch Engine (EXOS))](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000080477)
 * [How To: Configure Inter-VLAN Routing on Switch Engine (EXOS)](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000083610)
-* [How To: Configure LAGs (Sharing) on Switch Engine (EXOS)](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000074233)
+* [How To: Configure LAGs (Sharing) on Switch Engine (EXOS)](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000074233) 
