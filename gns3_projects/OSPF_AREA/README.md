@@ -1,4 +1,4 @@
-# OSPF Area project
+# OSPF Area Example Project
 
 This GNS3 project was made to show a configuration example of how different OSPF area types are configured.  In the picture below you can see that each area shows a example of a different way to use a OSPF area.
 
