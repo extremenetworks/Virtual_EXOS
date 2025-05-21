@@ -6,7 +6,7 @@ This GNS3 project was made to show a configuration example of how Two EAPS rings
 
 * [GNS3 32.7 Project file](https://github.com/stewilliams-extr/Virtual_EXOS/raw/refs/heads/master/gns3_projects/Two_EAPS_rings/EAPS_2ring.gns3project)
 
-* [Configuration Files and Routing Tables](configurations)
+* [Configuration Files](configurations)
 
   
 
