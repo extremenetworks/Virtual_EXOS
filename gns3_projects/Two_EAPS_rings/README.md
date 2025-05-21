@@ -1,4 +1,4 @@
-# Two EAPS Ring example GNS3 project
+# Two EAPS Ring Example Project
 
 This GNS3 project was made to show a configuration example of how Two EAPS rings connected together with CFM is configured. Vlan Data is across all switches and CFM is used with EAPS to protect against logical failures.
 
