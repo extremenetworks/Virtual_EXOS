@@ -1,4 +1,4 @@
-# RSTP (802.1w) example GNS3 project
+# RSTP (802.1w) example project
 
 This GNS3 project was made to show a configuration example of how RSTP is configured.  In this lab there are two VLANs.  One is the Default VLAN and the other is VOIP.  the VOIP VLAN is using auto-bind.
 
