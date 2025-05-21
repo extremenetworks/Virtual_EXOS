@@ -1,4 +1,4 @@
-# BGP Outbound Traffic Engineering.
+# BGP Outbound Traffic Engineering Example Project
 
 This GNS3 project aims to demonstrate on how you could perform outbound Traffic engineering with BGP.
 
