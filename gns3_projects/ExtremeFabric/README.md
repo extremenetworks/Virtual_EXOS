@@ -13,4 +13,4 @@ This is an example of a small ExtremeFabric network via BGP Auto-peering Leaf/Sp
 ## Relevant Articles
 
 * [How To: Configure BGP on Switch Engine (EXOS)](https://extreme-networks.my.site.com/ExtrArticleDetail?an=000122408)
-* [ExtremeFabric Release Notes](https://documentation.extremenetworks.com/exos_30.1/downloads/GUID-C002AB85-A1D6-482B-A171-02FDA1354649.pdf) Page 328
+* [ExtremeFabric User Guide](https://documentation.extremenetworks.com/switchengine_32.7.1/downloads/SwitchEngine_User_Guide_32.7.1.pdf) Page 385
