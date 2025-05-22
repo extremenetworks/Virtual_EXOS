@@ -1,4 +1,4 @@
-<img src="GNS3_Projects_For_Switch_Engine_(EXOS)_VM.png">
+# GNS3 Projects For Switch Engine (EXOS) VM
 
 > Below are a list of EXOS VM GNS3 portable projects shared for educational purposes. If you like to request or contribute any GNS3 projects please let us know.
 
