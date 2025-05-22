@@ -1,6 +1,6 @@
-# *GNS3 projects for Switch Engine (EXOS) VM*
+<img src="GNS3_Projects_For_Switch_Engine_(EXOS)_VM.png">
 
-### Below are a list of EXOS VM GNS3 portable projects shared for educational purposes. If you like to request or contribute any GNS3 projects please let us know.
+> Below are a list of EXOS VM GNS3 portable projects shared for educational purposes. If you like to request or contribute any GNS3 projects please let us know.
 
 * [GNS3 with EXOS-VM install Guide](https://github.com/extremenetworks/Virtual_EXOS/blob/master/GNS3_EXOS-VM_Guide.md)
 * [Guide on Importing/Exporting individual GNS3 projects on GNS3-VM](import_export_gns3.md)
