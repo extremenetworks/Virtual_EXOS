@@ -15,6 +15,6 @@
 |[RSTP LAB](RSTP_LAB/README.md)| RSTP | RSTP configuration example with two vlans and auto-bind.|
 |[Switch Basics](Switch_Basics/README.md)| Basics | Switch Basics configuration example with VLANS, LAGs, and basic routing.|
 |[OSPFv2 areas](OSPF_areas/README.md)| OSPF | Four different OSPF areas with Stub, NSSA, Normal Area, Summarizing routes.|
-|[OSPFv3 areas IPv6](OSPFv3_areas/README.md)| OSPFv3 | Four different OSPF areas with Stub, NSSA, Normal Area, Summarizing routes with IPv6.|
+|[OSPFv3 areas IPv6](OSPFv3_AREA/README.md)| OSPFv3 | Four different OSPF areas with Stub, NSSA, Normal Area, Summarizing routes with IPv6.|
 |[Two tier MLAG](Two_Trier_MLAG/README.md)| MLAG | Two tier MLAG with hosts attached.  Ports configured with LLDP fast timout|
 
