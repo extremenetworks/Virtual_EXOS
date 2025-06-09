@@ -1,0 +1,38 @@
+#
+# Module devmgr configuration.
+#
+configure snmp sysName "SW2"
+
+#
+# Module vlan configuration.
+#
+configure vlan default delete ports all
+enable ipforwarding ipv6 vlan Default
+create vlan "Normal"
+enable ipforwarding ipv6 vlan Normal
+configure vlan Normal tag 2222
+create vlan "vlan12"
+enable ipforwarding ipv6 vlan vlan12
+configure vlan vlan12 tag 12
+create vlan "vlan23"
+enable ipforwarding ipv6 vlan vlan23
+configure vlan vlan23 tag 23
+configure vlan Normal add ports 1 tagged
+configure vlan vlan12 add ports 2 tagged
+configure vlan vlan23 add ports 3 tagged
+configure Normal ipaddress eui64 fe80::/64
+configure Normal ipaddress 2002::a/124
+configure vlan12 ipaddress eui64 fe80::/64
+configure vlan12 ipaddress 2021::2/124
+configure vlan23 ipaddress eui64 fe80::/64
+configure vlan23 ipaddress 2023::2/124
+
+#
+# Module ospfv3 configuration.
+#
+configure ospfv3 routerid 2.2.2.100
+enable ospfv3
+create ospfv3 area 2.2.2.2
+configure ospfv3 add vlan Normal instance-id 0 area 2.2.2.2 link-type point-to-point
+configure ospfv3 add vlan vlan12 instance-id 0 area 0.0.0.0 link-type point-to-point
+configure ospfv3 add vlan vlan23 instance-id 0 area 0.0.0.0 link-type point-to-point

@@ -1,0 +1,19 @@
+#
+# Module devmgr configuration.
+#
+configure snmp sysName "Edge2"
+
+#
+# Module vlan configuration.
+#
+configure vlan default delete ports all
+create vlan "Data"
+configure vlan Data tag 10
+enable sharing 1 grouping 1-2 algorithm roundRobin-based lacp
+configure vlan Data add ports 1 tagged
+configure vlan Data add ports 10 untagged
+
+#
+# Module lacp configuration.
+#
+configure sharing 1 lacp timeout short

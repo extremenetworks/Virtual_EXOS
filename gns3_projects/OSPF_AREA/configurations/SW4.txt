@@ -1,0 +1,37 @@
+#
+# Module devmgr configuration.
+#
+configure snmp sysName "SW4"
+
+#
+# Module vlan configuration.
+#
+configure vlan default delete ports all
+create vlan "OSPF_NSSA"
+configure vlan OSPF_NSSA tag 444
+create vlan "vlan34"
+configure vlan vlan34 tag 34
+create vlan "vlan41"
+configure vlan vlan41 tag 41
+configure vlan OSPF_NSSA add ports 1 tagged
+configure vlan vlan34 add ports 4 tagged
+configure vlan vlan41 add ports 5 tagged
+configure vlan vlan41 ipaddress 41.41.41.4 255.255.255.0
+enable ipforwarding vlan vlan41
+configure vlan vlan34 ipaddress 34.34.34.4 255.255.255.0
+enable ipforwarding vlan vlan34
+configure vlan OSPF_NSSA ipaddress 4.4.4.100 255.255.255.0
+enable ipforwarding vlan OSPF_NSSA
+
+
+#
+# Module ospf configuration.
+#
+configure ospf routerid 4.4.4.100
+enable ospf
+create ospf area 4.4.4.4
+configure ospf area 4.4.4.4 nssa nosummary stub-default-cost 1 translate
+configure ospf add vlan OSPF_NSSA area 4.4.4.4 link-type point-to-point
+configure ospf add vlan vlan34 area 0.0.0.0 link-type point-to-point
+configure ospf add vlan vlan41 area 0.0.0.0 link-type point-to-point
+

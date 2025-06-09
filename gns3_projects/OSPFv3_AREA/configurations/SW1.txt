@@ -1,0 +1,41 @@
+
+#
+# Module devmgr configuration.
+#
+configure snmp sysName "SW1"
+
+#
+# Module vlan configuration.
+#
+configure vlan default delete ports all
+enable ipforwarding ipv6 vlan Default
+create vlan "stub"
+enable ipforwarding ipv6 vlan stub
+configure vlan stub tag 1111
+create vlan "vlan12"
+enable ipforwarding ipv6 vlan vlan12
+configure vlan vlan12 tag 12
+create vlan "vlan41"
+enable ipforwarding ipv6 vlan vlan41
+configure vlan vlan41 tag 41
+configure vlan stub add ports 1 tagged
+configure vlan vlan12 add ports 2 tagged
+configure vlan vlan41 add ports 5 tagged
+configure stub ipaddress eui64 fe80::/64
+configure stub ipaddress 2001::a/124
+configure vlan12 ipaddress eui64 fe80::/64
+configure vlan12 ipaddress 2021::1/124
+configure vlan41 ipaddress eui64 fe80::/64
+configure vlan41 ipaddress 2041::1/124
+
+
+#
+# Module ospfv3 configuration.
+#
+configure ospfv3 routerid 1.1.1.100
+enable ospfv3
+create ospfv3 area 1.1.1.1
+configure ospfv3 area 1.1.1.1 stub nosummary stub-default-cost 1
+configure ospfv3 add vlan stub instance-id 0 area 1.1.1.1 link-type point-to-point
+configure ospfv3 add vlan vlan12 instance-id 0 area 0.0.0.0 link-type point-to-point
+configure ospfv3 add vlan vlan41 instance-id 0 area 0.0.0.0 link-type point-to-point

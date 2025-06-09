@@ -1,18 +1,34 @@
-# ESXI requirements for EXOS-VM
-When building a EXOS-VM in ESXI use the below ESXI VM settings to build the VM.  Once the VM is built attach the CDROM with the EXOS-VM ISOs and boot up the VM to install the Image.  Once installed remove the ISO from the VM.  The first NIC is the Mgmt port, and the other ports up to 13 more are data ports.
+# EXOS-VM Requirements for VMware ESXi
 
+To deploy an EXOS-VM on VMware ESXi, use the configuration settings outlined below. After creating the virtual machine, mount the EXOS-VM ISO via the CD-ROM drive and boot the VM to install the image. Once the installation is complete, unmount the ISO.
 
-**Note:   EXOS-VMs can get stuck in (pending AAA) for 1-2 minutes.  Just be patient it will finish, and allow you to login**.
+   Note: EXOS-VMs may appear stuck at "(pending AAA)" for 1–2 minutes during boot. This is expected—please be patient and wait for the login prompt to appear.
 
-### ESXI EXOS-VM settings
-* Guest OS: Other Linux 64-bit
-* Virtural Sockets: 1
-* Cores per Socket: 2
-* Ram: 512MB
-* Hard Drive space: 4GB
-* Hard Disk:
- 	* SCSI - LSI Login Parallel
- 	* Thick Provision
- 	* IDE(0:0) - required.
- 	* Mode Dependent
- 	* CDROM: for EXOS-VM ISO
+Recommended ESXi VM Configuration for EXOS-VM
+
+   Guest OS: Other Linux (64-bit)
+
+   Virtual CPUs:
+
+   Sockets: 1
+
+   Cores per Socket: 2
+
+   Memory (RAM): 512 MB
+
+   Hard Drive:
+
+  - Size: 4 GB
+
+      Controller: SCSI (LSI Logic Parallel)
+
+       Provisioning: Thick Provisioned
+
+      IDE (0:0): Required for proper boot configuration
+
+    CD-ROM Drive: Required for mounting the EXOS-VM ISO during installation
+
+Network Interface Mapping
+
+   NIC 1: Management Interface
+   NICs 2–14: Data Interfaces (up to 13 supported)

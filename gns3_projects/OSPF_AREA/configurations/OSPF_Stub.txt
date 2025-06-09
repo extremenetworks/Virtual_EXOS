@@ -1,0 +1,38 @@
+#
+# Module devmgr configuration.
+#
+configure snmp sysName "OSPF_Stub"
+
+#
+# Module vlan configuration.
+#
+configure vlan default delete ports all
+create vlan "Net2"
+enable loopback-mode vlan Net2
+create vlan "Net3"
+enable loopback-mode vlan Net3
+create vlan "Net4"
+enable loopback-mode vlan Net4
+create vlan "stub"
+configure vlan stub tag 1111
+configure vlan stub add ports 1 tagged
+configure vlan stub ipaddress 1.1.1.1 255.255.255.0
+enable ipforwarding vlan stub
+configure vlan Net2 ipaddress 1.1.2.1 255.255.255.0
+enable ipforwarding vlan Net2
+configure vlan Net3 ipaddress 1.1.3.1 255.255.255.0
+enable ipforwarding vlan Net3
+configure vlan Net4 ipaddress 1.1.4.1 255.255.255.0
+enable ipforwarding vlan Net4
+
+#
+# Module ospf configuration.
+#
+configure ospf routerid 1.1.1.1
+enable ospf
+create ospf area 1.1.1.1
+configure ospf area 1.1.1.1 stub nosummary stub-default-cost 1
+configure ospf add vlan Net2 area 1.1.1.1 passive
+configure ospf add vlan Net3 area 1.1.1.1 passive
+configure ospf add vlan Net4 area 1.1.1.1 passive
+configure ospf add vlan stub area 1.1.1.1 link-type point-to-point

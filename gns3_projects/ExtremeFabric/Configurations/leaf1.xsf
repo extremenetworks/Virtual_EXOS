@@ -1,0 +1,16 @@
+configure snmp sysName "leaf_1"
+create auto-peering bgp vlans 2001-2064 routerid 10.255.1.1 as-number 1
+
+configure vlan default delete ports 11-12
+create vlan "red"
+configure vlan red tag 100
+configure vlan red add ports 11-12 untagged
+configure vlan red ipaddress 10.1.1.1 255.255.255.0
+enable ipforwarding vlan red
+
+create vrrp vlan red vrid 1
+configure vrrp vlan red vrid 1 priority 250
+configure vrrp vlan red vrid 1 host-mobility on
+configure vrrp vlan red vrid 1 add 10.1.1.254
+enable vrrp vlan red vrid 1
+

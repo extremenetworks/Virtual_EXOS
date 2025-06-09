@@ -1,0 +1,39 @@
+#
+# Module devmgr configuration.
+#
+configure snmp sysName "SW3"
+
+#
+# Module vlan configuration.
+#
+configure vlan default delete ports all
+enable ipforwarding ipv6 vlan Default
+create vlan "Normal_sum"
+enable ipforwarding ipv6 vlan Normal_sum
+configure vlan Normal_sum tag 3333
+create vlan "vlan23"
+enable ipforwarding ipv6 vlan vlan23
+configure vlan vlan23 tag 23
+create vlan "vlan34"
+enable ipforwarding ipv6 vlan vlan34
+configure vlan vlan34 tag 34
+configure vlan Normal_sum add ports 1 tagged
+configure vlan vlan23 add ports 3 tagged
+configure vlan vlan34 add ports 4 tagged
+configure Normal_sum ipaddress eui64 fe80::/64
+configure Normal_sum ipaddress 2003::a/124
+configure vlan23 ipaddress eui64 fe80::/64
+configure vlan23 ipaddress 2023::3/124
+configure vlan34 ipaddress eui64 fe80::/64
+configure vlan34 ipaddress 2034::3/124
+
+#
+# Module ospfv3 configuration.
+#
+configure ospfv3 routerid 3.3.3.100
+enable ospfv3
+create ospfv3 area 3.3.3.3
+configure ospfv3 area 3.3.3.3 add range 3004::1/14 advertise inter-prefix
+configure ospfv3 add vlan Normal_sum instance-id 0 area 3.3.3.3 link-type point-to-point
+configure ospfv3 add vlan vlan23 instance-id 0 area 0.0.0.0 link-type point-to-point
+configure ospfv3 add vlan vlan34 instance-id 0 area 0.0.0.0 link-type point-to-point

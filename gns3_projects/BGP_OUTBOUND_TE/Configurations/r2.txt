@@ -1,0 +1,279 @@
+# Module devmgr configuration.
+#
+configure snmp sysName "R2"
+configure sys-recovery-level switch reset
+
+#
+# Module vlan configuration.
+#
+configure vlan default delete ports all
+configure vr VR-Default delete ports 1-12
+configure vr VR-Default add ports 1-12
+create qosprofile "QP2"
+create qosprofile "QP3"
+create qosprofile "QP4"
+create qosprofile "QP5"
+create qosprofile "QP6"
+create qosprofile "QP7"
+create vlan "internal"
+create vlan "isp1"
+create vlan "isp2"
+create vlan "lpbk"
+enable loopback-mode vlan lpbk
+configure vlan internal add ports 8 untagged
+configure vlan isp1 add ports 11 untagged
+configure vlan isp2 add ports 1 untagged
+configure vlan internal ipaddress 10.1.3.1 255.255.255.0
+enable ipforwarding vlan internal
+configure vlan isp1 ipaddress 10.1.1.3 255.255.255.0
+enable ipforwarding vlan isp1
+configure vlan isp2 ipaddress 20.1.1.3 255.255.255.0
+configure vlan lpbk ipaddress 192.168.1.2 255.255.255.255
+enable ipforwarding vlan lpbk
+configure qosscheduler strict-priority ports 1
+configure qosscheduler strict-priority ports 2
+configure qosscheduler strict-priority ports 3
+configure qosscheduler strict-priority ports 4
+configure qosscheduler strict-priority ports 5
+configure qosscheduler strict-priority ports 6
+configure qosscheduler strict-priority ports 7
+configure qosscheduler strict-priority ports 8
+configure qosscheduler strict-priority ports 9
+configure qosscheduler strict-priority ports 10
+configure qosscheduler strict-priority ports 11
+configure qosscheduler strict-priority ports 12
+
+#
+# Module mcmgr configuration.
+#
+
+#
+# Module otm configuration.
+#
+
+#
+# Module fdb configuration.
+#
+
+#
+# Module rtmgr configuration.
+#
+enable icmp useredirects
+
+#
+# Module policy configuration.
+#
+configure policy slices tci-overwrite 0
+
+#
+# Module aaa configuration.
+#
+
+#
+# Module acl configuration.
+#
+
+
+
+
+#
+# Module bfd configuration.
+#
+
+#
+# Module bgp configuration.
+#
+configure bgp AS-number 1
+configure bgp routerid 1.1.1.2
+create bgp neighbor 10.1.1.2 remote-AS-number 2
+enable bgp neighbor 10.1.1.2
+create bgp neighbor 20.1.1.2 remote-AS-number 3
+enable bgp neighbor 20.1.1.2
+create bgp neighbor 192.168.1.3 remote-AS-number 1
+configure bgp neighbor 192.168.1.3 source-interface ipaddress 192.168.1.2
+enable bgp neighbor 192.168.1.3
+configure bgp neighbor 192.168.1.3 next-hop-self
+enable bgp
+
+#
+# Module cfgmgr configuration.
+#
+
+#
+# Module dnsAnalytics configuration.
+#
+
+#
+# Module dosprotect configuration.
+#
+
+#
+# Module dot1ag configuration.
+#
+
+#
+# Module eaps configuration.
+#
+
+#
+# Module edp configuration.
+#
+
+#
+# Module elrp configuration.
+#
+
+#
+# Module ems configuration.
+#
+
+#
+# Module epm configuration.
+#
+
+#
+# Module erps configuration.
+#
+
+#
+# Module esrp configuration.
+#
+
+#
+# Module ethoam configuration.
+#
+
+#
+# Module etmon configuration.
+#
+
+#
+# Module exsshd configuration.
+#
+
+#
+# Module hal configuration.
+#
+
+#
+# Module idMgr configuration.
+#
+
+#
+# Module ipSecurity configuration.
+#
+
+
+#
+# Module iqagent configuration.
+#
+
+#
+# Module isis configuration.
+#
+
+#
+# Module lldp configuration.
+#
+
+#
+# Module mrp configuration.
+#
+
+#
+# Module msdp configuration.
+#
+
+#
+# Module netDb configuration.
+#
+
+#
+# Module netLogin configuration.
+#
+
+#
+# Module netTools configuration.
+#
+enable dhcp vlan Default
+enable dhcp vlan Mgmt
+
+#
+# Module nodealias configuration.
+#
+
+#
+# Module ntp configuration.
+#
+
+#
+# Module ospf configuration.
+#
+enable ospf
+configure ospf add vlan internal area 0.0.0.0
+configure ospf add vlan lpbk area 0.0.0.0
+
+#
+# Module ospfv3 configuration.
+#
+
+#
+# Module pim configuration.
+#
+
+#
+# Module poe configuration.
+#
+
+#
+# Module rip configuration.
+#
+
+#
+# Module ripng configuration.
+#
+
+#
+# Module snmpMaster configuration.
+#
+configure snmpv3 engine-id 03:0c:59:22:74:bc:00
+
+#
+# Module stp configuration.
+#
+configure mstp region 0c592274bc00
+
+#
+# Module techSupport configuration.
+#
+
+#
+# Module telnetd configuration.
+#
+
+#
+# Module tftpd configuration.
+#
+
+#
+# Module thttpd configuration.
+#
+
+#
+# Module twamp configuration.
+#
+
+#
+# Module vmt configuration.
+#
+
+#
+# Module vrrp configuration.
+#
+
+#
+# Module vsm configuration.
+#
+
+#
+# Module vpex configuration.

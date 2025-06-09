@@ -1,0 +1,41 @@
+#
+# Module devmgr configuration.
+#
+configure snmp sysName "OSPF_Norm_Sum"
+
+#
+# Module vlan configuration.
+#
+configure vlan default delete ports all
+enable ipforwarding ipv6 vlan Default
+create vlan "net4"
+enable ipforwarding ipv6 vlan net4
+create vlan "net5"
+enable ipforwarding ipv6 vlan net5
+enable loopback-mode vlan net5
+create vlan "net6"
+enable ipforwarding ipv6 vlan net6
+enable loopback-mode vlan net6
+create vlan "Normal_sum"
+enable ipforwarding ipv6 vlan Normal_sum
+configure vlan Normal_sum tag 3333
+configure vlan Normal_sum add ports 1 tagged
+configure net4 ipaddress eui64 fe80::/64
+configure net4 ipaddress 3004::1/64
+configure net5 ipaddress eui64 fe80::/64
+configure net5 ipaddress 3005::1/64
+configure net6 ipaddress eui64 fe80::/64
+configure net6 ipaddress 3006::1/64
+configure Normal_sum ipaddress eui64 fe80::/64
+configure Normal_sum ipaddress 2003::1/124
+
+#
+# Module ospfv3 configuration.
+#
+configure ospfv3 routerid 3.3.3.3
+enable ospfv3
+create ospfv3 area 3.3.3.3
+configure ospfv3 add vlan net4 instance-id 0 area 3.3.3.3 link-type auto passive
+configure ospfv3 add vlan net5 instance-id 0 area 3.3.3.3 link-type auto passive
+configure ospfv3 add vlan net6 instance-id 0 area 3.3.3.3 link-type auto passive
+configure ospfv3 add vlan Normal_sum instance-id 0 area 3.3.3.3 link-type point-to-point

@@ -1,0 +1,309 @@
+#
+# Module devmgr configuration.
+#
+configure snmp sysName "R7"
+configure sys-recovery-level switch reset
+
+#
+# Module vlan configuration.
+#
+configure vlan default delete ports all
+configure vr VR-Default delete ports 1-12
+configure vr VR-Default add ports 1-12
+create qosprofile "QP2"
+create qosprofile "QP3"
+create qosprofile "QP4"
+create qosprofile "QP5"
+create qosprofile "QP6"
+create qosprofile "QP7"
+create vlan "client1"
+create vlan "client2"
+create vlan "client3"
+create vlan "client4"
+create vlan "client5"
+create vlan "end_isp"
+create vlan "transit"
+configure vlan client1 add ports 11 untagged
+configure vlan client2 add ports 12 untagged
+configure vlan client3 add ports 6 untagged
+configure vlan client4 add ports 7 untagged
+configure vlan client5 add ports 8 untagged
+configure vlan end_isp add ports 5 untagged
+configure vlan transit add ports 3 untagged
+configure vlan client1 ipaddress 60.1.1.1 255.255.255.0
+enable ipforwarding vlan client1
+configure vlan client2 ipaddress 60.1.2.1 255.255.255.0
+enable ipforwarding vlan client2
+configure vlan client3 ipaddress 70.1.1.1 255.255.255.0
+enable ipforwarding vlan client3
+configure vlan client4 ipaddress 80.1.1.1 255.255.255.0
+enable ipforwarding vlan client4
+configure vlan client5 ipaddress 90.1.1.1 255.255.255.0
+enable ipforwarding vlan client5
+configure vlan end_isp ipaddress 50.1.1.2 255.255.255.0
+enable ipforwarding vlan end_isp
+configure vlan transit ipaddress 30.1.1.2 255.255.255.0
+enable ipforwarding vlan transit
+configure qosscheduler strict-priority ports 1
+configure qosscheduler strict-priority ports 2
+configure qosscheduler strict-priority ports 3
+configure qosscheduler strict-priority ports 4
+configure qosscheduler strict-priority ports 5
+configure qosscheduler strict-priority ports 6
+configure qosscheduler strict-priority ports 7
+configure qosscheduler strict-priority ports 8
+configure qosscheduler strict-priority ports 9
+configure qosscheduler strict-priority ports 10
+configure qosscheduler strict-priority ports 11
+configure qosscheduler strict-priority ports 12
+
+#
+# Module mcmgr configuration.
+#
+
+#
+# Module otm configuration.
+#
+
+#
+# Module fdb configuration.
+#
+disable iparp vr VR-Mgmt refresh
+disable neighbor-discovery vr VR-Mgmt refresh
+
+#
+# Module rtmgr configuration.
+#
+enable icmp useredirects
+
+#
+# Module policy configuration.
+#
+configure policy slices tci-overwrite 0
+
+#
+# Module aaa configuration.
+#
+
+#
+# Module acl configuration.
+#
+
+
+
+
+#
+# Module bfd configuration.
+#
+
+#
+# Module bgp configuration.
+#
+configure bgp AS-number 5
+configure bgp routerid 1.1.1.5
+configure bgp add network 60.1.1.0/24
+configure bgp add network 60.1.2.0/24
+configure bgp add network 70.1.1.0/24
+configure bgp add network 80.1.1.0/24
+configure bgp add network 90.1.1.0/24
+create bgp neighbor 30.1.1.1 remote-AS-number 2
+enable bgp neighbor 30.1.1.1
+create bgp neighbor 50.1.1.1 remote-AS-number 4
+enable bgp neighbor 50.1.1.1
+enable bgp
+
+#
+# Module cfgmgr configuration.
+#
+
+#
+# Module dnsAnalytics configuration.
+#
+
+#
+# Module dosprotect configuration.
+#
+
+#
+# Module dot1ag configuration.
+#
+
+#
+# Module eaps configuration.
+#
+
+#
+# Module edp configuration.
+#
+
+#
+# Module elrp configuration.
+#
+
+#
+# Module ems configuration.
+#
+
+#
+# Module epm configuration.
+#
+
+#
+# Module erps configuration.
+#
+
+#
+# Module esrp configuration.
+#
+
+#
+# Module ethoam configuration.
+#
+
+#
+# Module etmon configuration.
+#
+
+#
+# Module exsshd configuration.
+#
+
+#
+# Module hal configuration.
+#
+
+#
+# Module idMgr configuration.
+#
+
+#
+# Module ipSecurity configuration.
+#
+
+
+#
+# Module iqagent configuration.
+#
+
+#
+# Module isis configuration.
+#
+
+#
+# Module lldp configuration.
+#
+
+#
+# Module mrp configuration.
+#
+
+#
+# Module msdp configuration.
+#
+
+#
+# Module netDb configuration.
+#
+
+#
+# Module netLogin configuration.
+#
+
+#
+# Module netTools configuration.
+#
+enable dhcp vlan Default
+enable dhcp vlan Mgmt
+configure vlan client1 dhcp-address-range 60.1.1.2 - 60.1.1.10
+configure vlan client1 dhcp-options default-gateway 60.1.1.1
+enable dhcp ports 11 vlan client1
+configure vlan client2 dhcp-address-range 60.1.2.2 - 60.1.2.10
+configure vlan client2 dhcp-options default-gateway 60.1.2.1
+enable dhcp ports 12 vlan client2
+configure vlan client3 dhcp-address-range 70.1.1.2 - 70.1.1.10
+configure vlan client3 dhcp-options default-gateway 70.1.1.1
+enable dhcp ports 6 vlan client3
+configure vlan client4 dhcp-address-range 80.1.1.2 - 80.1.1.10
+configure vlan client4 dhcp-options default-gateway 80.1.1.1
+enable dhcp ports 7 vlan client4
+configure vlan client5 dhcp-address-range 90.1.1.2 - 90.1.1.10
+configure vlan client5 dhcp-options default-gateway 90.1.1.1
+enable dhcp ports 8 vlan client5
+
+#
+# Module nodealias configuration.
+#
+
+#
+# Module ntp configuration.
+#
+
+#
+# Module ospf configuration.
+#
+
+#
+# Module ospfv3 configuration.
+#
+
+#
+# Module pim configuration.
+#
+
+#
+# Module poe configuration.
+#
+
+#
+# Module rip configuration.
+#
+
+#
+# Module ripng configuration.
+#
+
+#
+# Module snmpMaster configuration.
+#
+configure snmpv3 engine-id 03:0c:59:22:75:6f:00
+
+#
+# Module stp configuration.
+#
+configure mstp region 0c5922756f00
+
+#
+# Module techSupport configuration.
+#
+
+#
+# Module telnetd configuration.
+#
+
+#
+# Module tftpd configuration.
+#
+
+#
+# Module thttpd configuration.
+#
+
+#
+# Module twamp configuration.
+#
+
+#
+# Module vmt configuration.
+#
+
+#
+# Module vrrp configuration.
+#
+
+#
+# Module vsm configuration.
+#
+
+#
+# Module vpex configuration.
+#

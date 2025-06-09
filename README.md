@@ -1,7 +1,10 @@
-# Virtual Switch Engine (EXOS) Images
-Virtual Switch Engine (EXOS) images are provided to be used in virtualized environments such as VirtualBox or VMware.
+# *Extreme Networks* 
+Virtual switch Engine (EXOS) 
+EXOS VM Images are Provided for testing in Virtual environment such as VirtualBox or VMware
 
-Please reference the Install Guides to create a virtual machine from the ISOs in this folder.  The .xos files are provided to allow you to upgrade an existing installation.
+
+
+>Please reference the Install Guides to create a virtual machine from the ISOs in this folder.  The .xos files are provided to allow you to upgrade an existing installation.
 
 ### Feature and Functionality Note
 Virtual Switch Engine (EXOS) installations are not officially supported by GTAC and not all features and functions are implemented. For example, VXLAN VTEP and VPLS/VPWS PE functions are configurable but the associated data planes are not provided in Virtual EXOS.
@@ -11,8 +14,7 @@ Virtual Switch Engine (EXOS) installations are not officially supported by GTAC 
 * [GNS3 with EXOS-VM Install Guide (macOS)](GNS3_EXOS-VM_Guide_macOS.md)
 * [GNS3 project Import/Export Guide](gns3_projects/import_export_gns3.md)
 * [ESXi-EXOS-VM-Requirements(2021)](ESXi-EXOS-VM-Requirements.md)
-* [VMWare-Guide-(2015)](Install_Guide_EXOS-VM-ESXi-5.docx?raw=true)
-* [VirtualBox](Install_Guide_EXOS-VM-VirtualBox.docx?raw=true)
+
 
 # GNS3 Project files
 
