@@ -1,6 +1,6 @@
 # Importing and Exporting individual GNS3 projects on GNS3-VM 1.5.2 and above.
 
-GNS3 V1.5.2 has made it very easy to import and export GNS3 project.
+GNS3 V1.5.2 has made it very easy to import and export GNS3 projects.
 
 ## Exporting individual projects:
 

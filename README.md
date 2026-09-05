@@ -1,6 +1,6 @@
 # *Extreme Networks* 
 Virtual switch Engine (EXOS) 
-EXOS VM Images are Provided for testing in Virtual environment such as VirtualBox or VMware
+EXOS VM Images are Provided for testing in a Virtual environment such as VirtualBox or VMware
 
 
 

@@ -1,5 +1,5 @@
 # Setting up GNS3 with EXOS-VM
-This Guide will assist you in setting up GNS3 V2 and above to work with EXOS-VM in Windows.  If you have any questions about this guide please open a [Issue](https://github.com/extremenetworks/Virtual_EXOS/issues/new) on GitHub or on  [The HUB](http://community.extremenetworks.com/).
+This Guide will assist you in setting up GNS3 V2 and above to work with EXOS-VM in Windows.  If you have any questions about this guide please open an [Issue](https://github.com/extremenetworks/Virtual_EXOS/issues/new) on GitHub or on  [The HUB](http://community.extremenetworks.com/).
 
 If you are setting this up in macOS, see the [macOS GNS3 EXOS VM Guide](GNS3_EXOS-VM_Guide_macOS.md)  
 
@@ -60,10 +60,10 @@ Download the appropriate version of the GNS3 VM for VMware from the GNS3 GitHub 
 3. You should see two versions of EXOS.  Expand the version you want and click on the file. -> click download.
 4. Once downloaded Click on import, and select the file you just downloaded. -> Click Next -> Click Yes -> Click Next -> Click Finish -> Click OK.
 5. Now you will see a router that is called "EXOS VM XX.X.X.X" in your inventory.
-6. Drag the VM to your project. and select yes to upload your image to your VM.
+6. Drag the VM to your project, and select yes to upload your image to your VM.
 
 ### Step 9: Have fun!
-1. Move more switches over connect them together, boot them up, and configure them.  Be careful for loops!
+1. Move more switches over, connect them together, boot them up, and configure them.  Be careful for loops!
 
 ### Screenshot
 

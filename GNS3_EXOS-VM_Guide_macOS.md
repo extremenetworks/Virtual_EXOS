@@ -1,5 +1,5 @@
 # Setting up GNS3 with EXOS-VM in macOS
-This Guide will assist you in setting up GNS3 V2 and above to work with EXOS-VM on macOS.  If you have any questions about this guide please open a [Issue](https://github.com/extremenetworks/Virtual_EXOS/issues/new) on GitHub or on  [The HUB](http://community.extremenetworks.com/).  
+This Guide will assist you in setting up GNS3 V2 and above to work with EXOS-VM on macOS.  If you have any questions about this guide please open an [Issue](https://github.com/extremenetworks/Virtual_EXOS/issues/new) on GitHub or on  [The HUB](http://community.extremenetworks.com/).  
 
 **Note: EXOS-VMs can get stuck in (pending AAA) for 1-2 minutes.  Just be patient it will finish, and allow you to login**.
 
@@ -53,11 +53,11 @@ This Guide will assist you in setting up GNS3 V2 and above to work with EXOS-VM 
 3. You should see multiple versions of EXOS.  Expand the version you want and click on the file. -> click Download.
 4. Once downloaded, click Refresh, then select the version and click Next. When prompted, answer Yes to install.
 5. Now you will see a switch that is called "EXOS VM XX.X.X.X" in your inventory.
-6. Drag the VM to your project. and select yes to upload your image to your VM.
+6. Drag the VM to your project, and select yes to upload your image to your VM.
 7. Repeat these steps as needed to install all the desired versions of EXOS VM.
 
 ### Step 8: Have fun!
-1. Move more switches over connect them together, boot them up, and configure them.  Be careful for loops!
+1. Move more switches over, connect them together, boot them up, and configure them.  Be careful for loops!
 
 ### Screenshot
 
