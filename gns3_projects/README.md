@@ -1,6 +1,6 @@
 # *GNS3 Projects For Switch Engine (EXOS)*
 
-> Below are a list of EXOS VM GNS3 portable projects shared for educational purposes. If you like to request or contribute any GNS3 projects please let us know.
+> Below are a list of EXOS VM GNS3 portable projects shared for educational purposes. If you would like to request or contribute any GNS3 projects please let us know.
 
 * [GNS3 with EXOS-VM install Guide](https://github.com/extremenetworks/Virtual_EXOS/blob/master/GNS3_EXOS-VM_Guide.md)
 * [Guide on Importing/Exporting individual GNS3 projects on GNS3-VM](import_export_gns3.md)
@@ -16,5 +16,5 @@
 |[Switch Basics](Switch_Basics/README.md)| Basics | Switch Basics configuration example with VLANS, LAGs, and basic routing.|
 |[OSPFv2 areas](OSPF_AREA/README.md)| OSPF | Four different OSPF areas with Stub, NSSA, Normal Area, Summarizing routes.|
 |[OSPFv3 areas IPv6](OSPFv3_AREA/README.md)| OSPFv3 | Four different OSPF areas with Stub, NSSA, Normal Area, Summarizing routes with IPv6.|
-|[Two tier MLAG](Two_Trier_MLAG/README.md)| MLAG | Two tier MLAG with hosts attached.  Ports configured with LLDP fast timout|
+|[Two tier MLAG](Two_Trier_MLAG/README.md)| MLAG | Two tier MLAG with hosts attached.  Ports configured with LLDP fast timeout|
 
